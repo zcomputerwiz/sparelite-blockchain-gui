@@ -1,2 +1,2 @@
-export * as chia from './chia';
+export * as flaxlight from './flaxlight';
 export * as toBech32m from './toBech32m';

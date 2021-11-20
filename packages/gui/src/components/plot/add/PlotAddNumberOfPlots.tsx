@@ -9,7 +9,7 @@ import {
   Flex,
   Checkbox,
   TooltipIcon,
-} from '@chia/core';
+} from '@flaxlight/core';
 import {
   Grid,
   FormControl,

@@ -1,10 +1,10 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import { Wallet, CAT, WalletType } from '@chia/api';
-import chiaLazyBaseQuery from '../chiaLazyBaseQuery';
+import { Wallet, CAT, WalletType } from '@flaxlight/api';
+import flaxlightLazyBaseQuery from '../flaxlightLazyBaseQuery';
 import type Transaction from '../@types/Transaction';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';
 
-const baseQuery = chiaLazyBaseQuery({
+const baseQuery = flaxlightLazyBaseQuery({
   service: Wallet,
 });
 

@@ -1,5 +1,5 @@
 enum StateColor {
-  SUCCESS = '#3AAC59',
+  SUCCESS = '#059eff',
   WARNING = '#F7CA3E',
   ERROR = '#F44336',
 }
