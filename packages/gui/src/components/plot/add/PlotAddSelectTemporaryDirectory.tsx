@@ -7,7 +7,7 @@ import {
   CardStep,
   Flex,
   TextField,
-} from '@chia/core';
+} from '@flaxlight/core';
 import { Typography } from '@material-ui/core';
 import useSelectDirectory from '../../../hooks/useSelectDirectory';
 

@@ -14,16 +14,16 @@ function getInstallerConfig () {
   const outPath = path.join(rootPath, 'release-builds')
 
   return Promise.resolve({
-    appDirectory: path.join(rootPath, 'Chia-win32-x64'),
-    authors: 'Chia Network',
-    version: process.env.CHIA_INSTALLER_VERSION,
+    appDirectory: path.join(rootPath, 'FlaxLight-win32-x64'),
+    authors: 'Flax Network',
+    version: process.env.FLAX_INSTALLER_VERSION,
     noMsi: true,
-    iconUrl: 'https://raw.githubusercontent.com/Chia-Network/chia-blockchain/master/electron-react/src/assets/img/chia.ico',
+    iconUrl: 'https://raw.githubusercontent.com/Flax-Network/flax-blockchain/master/electron-react/src/assets/img/flaxlight.ico',
     outputDirectory: path.join(outPath, 'windows-installer'),
-    certificateFile: 'win_code_sign_cert.p12',
-    certificatePassword: process.env.WIN_CODE_SIGN_PASS,
-    exe: 'Chia.exe',
-    setupExe: 'ChiaSetup-' + process.env.CHIA_INSTALLER_VERSION + '.exe',
-    setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'chia.ico')
+    
+    
+    exe: 'FlaxLight.exe',
+    setupExe: 'FlaxLightSetup-' + process.env.FLAX_INSTALLER_VERSION + '.exe',
+    setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'flaxlight.ico')
   })
 }

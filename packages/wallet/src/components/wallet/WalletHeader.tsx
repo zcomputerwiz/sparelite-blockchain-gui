@@ -5,7 +5,7 @@ import {
   Flex,
   ConfirmDialog,
   useOpenDialog,
-} from '@chia/core';
+} from '@flaxlight/core';
 import { useHistory } from 'react-router';
 import {
   Box,
@@ -17,7 +17,7 @@ import {
 import {
   Delete as DeleteIcon,
 } from '@material-ui/icons';
-import { useDeleteUnconfirmedTransactionsMutation } from '@chia/api-react';
+import { useDeleteUnconfirmedTransactionsMutation } from '@flaxlight/api-react';
 import WalletStatus from './WalletStatus';
 import WalletsDropdodown from './WalletsDropdown';
 import isDebug from '../../util/isDebug';
@@ -54,12 +54,6 @@ export default function WalletHeader(props: StandardWalletProps) {
     <Flex gap={1} alignItems="center">
       <Flex flexGrow={1} gap={1}>
         <WalletsDropdodown walletId={walletId} />
-        <Button
-          color="primary"
-          onClick={handleAddToken}
-        >
-          <Trans>+ Add Token</Trans>
-        </Button>
       </Flex>
       <Flex gap={1} alignItems="center">
         <Flex alignItems="center">

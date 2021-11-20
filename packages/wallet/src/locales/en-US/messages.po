@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en_US\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: flaxlight-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:39\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: flaxlight-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: en\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Flax-Network.flax-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgstr ""
 #~ msgstr "(Optional)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-#~ msgstr "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+#~ msgid "*Want to explore Flax’s blocks further? Check out <0>Flax Explorer</0> built by an open source developer."
+#~ msgstr "*Want to explore Flax’s blocks further? Check out <0>Flax Explorer</0> built by an open source developer."
 
 #: src/components/wallet/WalletHistory.tsx:111
 msgid "+"
@@ -60,13 +60,13 @@ msgstr "-"
 
 #: src/electron/main.tsx:423
 #: src/electron/main.tsx:510
-#~ msgid "About Chia Blockchain"
-#~ msgstr "About Chia Blockchain"
+#~ msgid "About Flax Blockchain"
+#~ msgstr "About Flax Blockchain"
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Wallet"
-msgstr "About Chia Wallet"
+msgid "About Flax Wallet"
+msgstr "About Flax Wallet"
 
 #: src/components/trading/ViewOffer.jsx:74
 #~ msgid "Accept"
@@ -281,8 +281,8 @@ msgstr "Balance"
 #~ msgstr "Block VDF Iterations"
 
 #: src/components/block/Block.jsx:337
-#~ msgid "Block at height {0} in the Chia blockchain"
-#~ msgstr "Block at height {0} in the Chia blockchain"
+#~ msgid "Block at height {0} in the Flax blockchain"
+#~ msgstr "Block at height {0} in the Flax blockchain"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -347,8 +347,8 @@ msgstr "Cancel"
 
 #: src/components/wallet/WalletSend.tsx:99
 #: src/components/wallet/cat/WalletCATSend.tsx:117
-msgid "Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Cannot send chia to coloured address. Please enter a chia address."
+msgid "Cannot send flaxlight to coloured address. Please enter a flaxlight address."
+msgstr "Cannot send flaxlight to coloured address. Please enter a flaxlight address."
 
 #: src/components/plot/PlotsNotFound.tsx:39
 #~ msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
@@ -373,25 +373,25 @@ msgstr "Cannot send chia to coloured address. Please enter a chia address."
 #~ msgstr "Change Pool"
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "Chat on KeyBase"
+msgid "Chat on Discord"
+msgstr "Chat on Discord"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+msgid "Flax"
+msgstr "Flax"
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:25
 #: src/components/wallet/create/WalletCreateList.tsx:32
-msgid "Chia Asset Token"
-msgstr "Chia Asset Token"
+msgid "Flax Asset Token"
+msgstr "Flax Asset Token"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+msgid "Flax Blockchain Wiki"
+msgstr "Flax Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:23
-msgid "Chia Wallet"
-msgstr "Chia Wallet"
+msgid "Flax Wallet"
+msgstr "Flax Wallet"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 #~ msgid "Choose Number of Plots"
@@ -556,12 +556,12 @@ msgid "Create An Attestation Packet"
 msgstr "Create an Attestation Packet"
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:65
-#~ msgid "Create Chia Asset Token Wallet"
-#~ msgstr "Create Chia Asset Token Wallet"
+#~ msgid "Create Flax Asset Token Wallet"
+#~ msgstr "Create Flax Asset Token Wallet"
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:77
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
-msgstr "Create Chia Asset Token Wallet from Existing TAIL"
+msgid "Create Flax Asset Token Wallet from Existing TAIL"
+msgstr "Create Flax Asset Token Wallet from Existing TAIL"
 
 #: src/components/wallet/create/WalletCreate.jsx:290
 #~ msgid "Create DID wallet"
@@ -572,8 +572,8 @@ msgid "Create Distributed Identity Wallet"
 msgstr "Create Distributed Identity Wallet"
 
 #: src/components/wallet/cat/WalletCATCreateNew.tsx:77
-msgid "Create New Chia Asset Token Wallet"
-msgstr "Create New Chia Asset Token Wallet"
+msgid "Create New Flax Asset Token Wallet"
+msgstr "Create New Flax Asset Token Wallet"
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:32
 #: src/components/wallet/did/WalletDIDSelect.tsx:32
@@ -834,8 +834,8 @@ msgstr "Edit"
 #~ msgstr "Edit Payout Instructions"
 
 #: src/components/wallet/WalletImport.tsx:94
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Flax wallet."
+msgstr "Enter the 24 word mnemonic that you have saved in order to restore your Flax wallet."
 
 #: src/components/farm/card/FarmCard.tsx:57
 msgid "Error"
@@ -846,8 +846,8 @@ msgid "Error the entered address appears to be for a different colour."
 msgstr "Error the entered address appears to be for a different colour."
 
 #: src/components/wallet/WalletSend.tsx:289
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-#~ msgstr "Error: Cannot send chia to colored address. Please enter a chia address."
+#~ msgid "Error: Cannot send flaxlight to coloured address. Please enter a flaxlight address."
+#~ msgstr "Error: Cannot send flaxlight to colored address. Please enter a flaxlight address."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 #~ msgid "Estimated Network Space"
@@ -952,7 +952,7 @@ msgid "Fee"
 msgstr "Fee"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (TXFX)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1154,16 +1154,16 @@ msgstr "Interval"
 #~ msgstr "Join a Pool"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-#~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
-#~ msgstr "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
+#~ msgid "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile."
+#~ msgstr "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile."
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-#~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-#~ msgstr "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+#~ msgid "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+#~ msgstr "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-#~ msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
-#~ msgstr "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
+#~ msgid "Join a pool and get more consistent XFX farming rewards. Create a plot NFT and assign your new plots to a group."
+#~ msgstr "Join a pool and get more consistent XFX farming rewards. Create a plot NFT and assign your new plots to a group."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 #~ msgid "K-Size"
@@ -1429,8 +1429,8 @@ msgstr "Not Synced"
 #~ msgstr "Not found Plots"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
-#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
-#~ msgstr "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XFX reward for pooling plots."
+#~ msgstr "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XFX reward for pooling plots."
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
 #: src/components/plotNFT/PlotNFTCard.tsx:160
@@ -1706,8 +1706,8 @@ msgstr "Please wait for wallet synchronization"
 #~ msgstr "Plots Passed Filter"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-#~ msgstr "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Flax. <0>Learn more</0>"
+#~ msgstr "Plots are allocated space on your hard drive used to farm and earn Flax. <0>Learn more</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 #~ msgid "Plotting"
@@ -2118,8 +2118,8 @@ msgstr "Selected recovery file:"
 #~ msgstr "Self Pooling"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-#~ msgid "Self pool. When you win a block you will earn XCH rewards."
-#~ msgstr "Self pool. When you win a block you will earn XCH rewards."
+#~ msgid "Self pool. When you win a block you will earn XFX rewards."
+#~ msgstr "Self pool. When you win a block you will earn XFX rewards."
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -2179,8 +2179,8 @@ msgstr "Sign In"
 #~ msgstr "Skips adding a final directory to harvester for farming"
 
 #: src/components/pool/PoolHero.tsx:26
-#~ msgid "Smooth out your XCH farming rewards by joining a pool."
-#~ msgstr "Smooth out your XCH farming rewards by joining a pool."
+#~ msgid "Smooth out your XFX farming rewards by joining a pool."
+#~ msgstr "Smooth out your XFX farming rewards by joining a pool."
 
 #: src/modules/message.js:568
 #: src/modules/message.js:583
@@ -2216,8 +2216,8 @@ msgstr "Spending Interval Length (number of blocks)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (flaxlight per interval): {0}"
+msgstr "Spending Limit (flaxlight per interval): {0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -2264,8 +2264,8 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Flax blockchain"
+#~ msgstr "Sub Block at height {0} in the Flax blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2294,23 +2294,23 @@ msgstr "Syncing"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "TXFX Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "TXFX Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "TXFX Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "TXFX User Fees"
+#~ msgstr "TXFX User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "TXFX User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2392,8 +2392,8 @@ msgstr "The pool URL needs to use protocol https. {normalizedUrl}"
 #~ msgstr "The total transactions fees in this block. Rewarded to the farmer."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
-#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-#~ msgstr "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XFX address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgstr "These are the instructions for how the farmer wants to get paid. By default this will be an XFX address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 
 #: src/components/plot/PlotsFailed.tsx:40
 #~ msgid "These plots are invalid, you might want to delete them."
@@ -2422,8 +2422,8 @@ msgid "This feature is available only from the GUI."
 msgstr "This feature is available only from the GUI."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Flax that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Flax that you have just spent but is not yet in the blockchain."
+msgstr "This is the amount of Flax that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Flax that you have just spent but is not yet in the blockchain."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:44
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2442,8 +2442,8 @@ msgstr "This is the sum of the incoming and outgoing pending transactions (not y
 #~ msgstr "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of flaxlight in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "This is the total amount of flaxlight in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:31
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2488,8 +2488,8 @@ msgstr "This is the total balance + pending balance: it is what your balance wil
 #~ msgstr "This trade was included on blockchain at this block height"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+#~ msgid "This version of Flax is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "This version of Flax is no longer compatible with the blockchain and can not safely farm."
 
 #: src/components/fullNode/FullNode.jsx:92
 #~ msgid "Time Created"
@@ -2525,8 +2525,8 @@ msgstr "Token has empty tail"
 msgid "Total Balance"
 msgstr "Total Balance"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalFlaxFarmed.tsx:15
+#~ msgid "Total Flax Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2732,7 +2732,7 @@ msgstr "Wallet does not exist"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.flaxlightWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2768,8 +2768,8 @@ msgstr "Wallets"
 #~ msgstr "Want to Join a Pool? Create a Plot NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chia? Add more plots to your farm."
-#~ msgstr "Want to earn more Chia? Add more plots to your farm."
+#~ msgid "Want to earn more Flax? Add more plots to your farm."
+#~ msgstr "Want to earn more Flax? Add more plots to your farm."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 #~ msgid "Want to have a delay before the next plot starts?"
@@ -2796,8 +2796,8 @@ msgstr "Warning: This key is used for your pool rewards address. By deleting thi
 #~ msgstr "Weight is the total added difficulty of all sub blocks up to and including this one"
 
 #: src/components/selectKey/SelectKey.tsx:81
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Flax. Please log in with an existing key, or create a new key."
+msgstr "Welcome to Flax. Please log in with an existing key, or create a new key."
 
 #: src/components/wallet/WalletAdd.tsx:85
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2869,8 +2869,8 @@ msgstr "You are not self pooling"
 #~ msgstr "You need to claim your rewards first"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Flax application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Flax application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 #~ msgid "You need {currencyCode} to join a pool."
@@ -2956,9 +2956,9 @@ msgstr "syncing"
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} Block Rewards"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
-#~ msgstr "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalFlaxFarmed.tsx:29
+#~ msgid "{currencyCode} Total Flax Farmed"
+#~ msgstr "{currencyCode} Total Flax Farmed"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 #~ msgid "{currencyCode} User Transaction Fees"

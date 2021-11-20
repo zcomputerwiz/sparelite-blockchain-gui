@@ -5,11 +5,11 @@ import {
   FormatBytes,
   Loading,
   Table,
-} from '@chia/core';
+} from '@flaxlight/core';
 import { Tooltip } from '@material-ui/core';
 import { service_connection_types } from '../../util/service_names';
 import Connection from '../../types/Connection';
-import { useGetWalletConnectionsQuery } from '@chia/api-react';
+import { useGetWalletConnectionsQuery } from '@flaxlight/api-react';
 
 const cols = [
   {

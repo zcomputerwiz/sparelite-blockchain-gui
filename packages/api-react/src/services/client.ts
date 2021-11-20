@@ -1,8 +1,8 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import chiaLazyBaseQuery from '../chiaLazyBaseQuery';
-import { ConnectionState, ServiceName } from '@chia/api';
+import flaxlightLazyBaseQuery from '../flaxlightLazyBaseQuery';
+import { ConnectionState, ServiceName } from '@flaxlight/api';
 
-const baseQuery = chiaLazyBaseQuery();
+const baseQuery = flaxlightLazyBaseQuery();
 
 export const clientApi = createApi({
   reducerPath: 'clientApi',

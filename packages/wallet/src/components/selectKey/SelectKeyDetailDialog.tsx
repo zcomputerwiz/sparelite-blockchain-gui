@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, Loading } from '@chia/core';
-import { useGetPrivateKeyQuery } from '@chia/api-react';
+import { AlertDialog, Loading } from '@flaxlight/core';
+import { useGetPrivateKeyQuery } from '@flaxlight/api-react';
 import { Grid, Typography } from '@material-ui/core';
 import styled from 'styled-components';
 

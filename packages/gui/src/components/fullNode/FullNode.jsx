@@ -9,8 +9,8 @@ import {
   Loading,
   StateColor,
   Table,
-} from '@chia/core';
-import { Status } from '@chia/icons';
+} from '@flaxlight/core';
+import { Status } from '@flaxlight/icons';
 import { useRouteMatch, useHistory } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { Box, Tooltip, Typography } from '@material-ui/core';
@@ -136,7 +136,7 @@ const getStatusItems = (state, connected, latestPeakTimestamp, networkInfo) => {
     const item = {
       label: <Trans>Status</Trans>,
       value: <Trans>Synced</Trans>,
-      colour: '#3AAC59',
+      colour: '#087dcf',
       tooltip: (
         <Trans>This node is fully caught up and validating the network</Trans>
       ),
@@ -152,7 +152,7 @@ const getStatusItems = (state, connected, latestPeakTimestamp, networkInfo) => {
       ) : (
         <Trans>Not connected</Trans>
       ),
-      colour: connected ? '#3AAC59' : 'red',
+      colour: connected ? '#087dcf' : 'red',
     });
   } else {
     const item = {

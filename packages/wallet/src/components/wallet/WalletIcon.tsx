@@ -1,7 +1,7 @@
 import React from 'react';
-import { Logo } from '@chia/core';
+import { Logo } from '@flaxlight/core';
 import styled from 'styled-components';
-import { useGetCatListQuery } from '@chia/api-react';
+import { useGetCatListQuery } from '@flaxlight/api-react';
 import Wallet from '../../types/Wallet';
 import WalletType from '../../constants/WalletType';
 import { Typography } from '@material-ui/core';
@@ -20,7 +20,7 @@ export default function WalletIcon(props: Props) {
   const { data: catList = [], isLoading } = useGetCatListQuery();
 
   if (wallet.type === WalletType.STANDARD_WALLET) {
-    return <Logo width={32} />;
+    return <Logo width={130} />;
   }
 
   if (!isLoading && wallet.type === WalletType.CAT) {
