@@ -1,4 +1,4 @@
-import { useGetSyncStatusQuery } from '@chia/api-react';
+import { useGetSyncStatusQuery } from '@flaxlight/api-react';
 import SyncingStatus from '../constants/SyncingStatus';
 import getWalletSyncingStatus from '../util/getWalletSyncingStatus';
 

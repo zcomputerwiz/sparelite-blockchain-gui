@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { CopyToClipboard, Card, Loading } from '@chia/core';
-import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@chia/api-react';
+import { CopyToClipboard, Card, Loading } from '@flaxlight/core';
+import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@flaxlight/api-react';
 import {
   Box,
   Button,

@@ -1,6 +1,6 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import { FullNode } from '@chia/api';
-import chiaLazyBaseQuery from '../chiaLazyBaseQuery';
+import { FullNode } from '@flaxlight/api';
+import flaxlightLazyBaseQuery from '../flaxlightLazyBaseQuery';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';
 import type Block from '../@types/Block';
 import type BlockRecord from '../@types/BlockRecord';
@@ -8,7 +8,7 @@ import type BlockHeader from '../@types/BlockHeader';
 import type BlockchainState from '../@types/BlockchainState';
 import type BlockchainConnection from '../@types/BlockchainConnection';
 
-const baseQuery = chiaLazyBaseQuery({
+const baseQuery = flaxlightLazyBaseQuery({
   service: FullNode,
 });
 

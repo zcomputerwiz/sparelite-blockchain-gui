@@ -1,4 +1,4 @@
-import { ServiceName } from '@chia/api';
+import { ServiceName } from '@flaxlight/api';
 
 const ServiceHumanName = {
   [ServiceName.WALLET]: 'Wallet',

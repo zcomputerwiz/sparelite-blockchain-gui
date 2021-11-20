@@ -11,7 +11,7 @@ import {
   Loading,
   FormatLargeNumber,
   Link,
-} from '@chia/core';
+} from '@flaxlight/core';
 import {
   Box,
   Card,
@@ -21,7 +21,7 @@ import {
   ListItemIcon,
 } from '@material-ui/core';
 import { /* Link as LinkIcon, */ Payment as PaymentIcon } from '@material-ui/icons';
-import { Plot as PlotIcon } from '@chia/icons';
+import { Plot as PlotIcon } from '@flaxlight/icons';
 import PlotNFTName from './PlotNFTName';
 import PlotNFTExternalState from './PlotNFTExternalState';
 import usePlotNFTExternalDetails from '../../hooks/usePlotNFTExternalDetails';
