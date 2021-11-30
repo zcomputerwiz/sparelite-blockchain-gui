@@ -1,24 +1,24 @@
-# renamemelite-blockchain
-![Alt text](https://www.renamemenetwork.org/img/renamemelite_logo.svg)
+# sparelite-blockchain
+![Alt text](https://www.sparenetwork.org/img/sparelite_logo.svg)
 
-![GitHub contributors](https://img.shields.io/github/contributors/Renameme-Network/renameme-blockchain?logo=GitHub)
+![GitHub contributors](https://img.shields.io/github/contributors/Spare-Network/spare-blockchain?logo=GitHub)
 
-Please check out the [wiki](https://github.com/Renameme-Network/renameme-blockchain/wiki)
-and [FAQ](https://github.com/Renameme-Network/renameme-blockchain/wiki/FAQ) for
+Please check out the [wiki](https://github.com/Spare-Network/spare-blockchain/wiki)
+and [FAQ](https://github.com/Spare-Network/spare-blockchain/wiki/FAQ) for
 information on this project.
 
 ## Installing
 
-This is the GUI for renamemelite-blockchain. It is built into distribution packages in the renamemelite-blockchain repository.
+This is the GUI for sparelite-blockchain. It is built into distribution packages in the sparelite-blockchain repository.
 
 Install instructions are available in the
-[INSTALL](https://github.com/Renameme-Network/renameme-blockchain/wiki/INSTALL)
+[INSTALL](https://github.com/Spare-Network/spare-blockchain/wiki/INSTALL)
 section of the
-[renamemelite-blockchain repository wiki](https://github.com/Renameme-Network/renameme-blockchain/wiki).
+[sparelite-blockchain repository wiki](https://github.com/Spare-Network/spare-blockchain/wiki).
 
 ## Running
 
 Once installed, a
-[Quick Start Guide](https://github.com/Renameme-Network/renameme-blockchain/wiki/Quick-Start-Guide)
+[Quick Start Guide](https://github.com/Spare-Network/spare-blockchain/wiki/Quick-Start-Guide)
 is available from the repository
-[wiki](https://github.com/Renameme-Network/renameme-blockchain/wiki).
+[wiki](https://github.com/Spare-Network/spare-blockchain/wiki).

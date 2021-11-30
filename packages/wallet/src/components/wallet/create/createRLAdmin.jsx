@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog } from '@renamemelite/core';
+import { AlertDialog } from '@sparelite/core';
 import {
   Typography,
   Button,
@@ -20,7 +20,7 @@ import {
 } from '../../../modules/createWallet';
 import { useStyles } from './WalletCreate';
 import { create_rl_admin_action } from '../../../modules/message';
-import { renamemelite_to_mojo } from '../../../util/renamemelite';
+import { sparelite_to_mojo } from '../../../util/sparelite';
 import { openDialog } from '../../../modules/dialog';
 
 export const customStyles = makeStyles((theme) => ({
@@ -76,7 +76,7 @@ export const CreateRLAdminWallet = () => {
   const custom = customStyles();
   const dispatch = useDispatch();
   let interval_input = null;
-  let renamemeliteper_input = null;
+  let spareliteper_input = null;
   let userpubkey_input = null;
   let amount_input = null;
   let fee_input = null;
@@ -104,10 +104,10 @@ export const CreateRLAdminWallet = () => {
       return;
     }
     if (
-      renamemeliteper_input.value === '' ||
-      Number(renamemeliteper_input.value) === 0 ||
-      !Number(renamemeliteper_input.value) ||
-      isNaN(Number(renamemeliteper_input.value))
+      spareliteper_input.value === '' ||
+      Number(spareliteper_input.value) === 0 ||
+      !Number(spareliteper_input.value) ||
+      isNaN(Number(spareliteper_input.value))
     ) {
       dispatch(
         openDialog(
@@ -156,18 +156,18 @@ export const CreateRLAdminWallet = () => {
     dispatch(createState(true, true));
     const interval = interval_input.value;
     const interval_value = Number.parseInt(Number(interval));
-    const renamemeliteper = renamemelite_to_mojo(renamemeliteper_input.value);
-    const renamemeliteper_value = Number.parseInt(Number(renamemeliteper));
+    const spareliteper = sparelite_to_mojo(spareliteper_input.value);
+    const spareliteper_value = Number.parseInt(Number(spareliteper));
     const userpubkey = userpubkey_input.value;
-    const amount = renamemelite_to_mojo(amount_input.value);
+    const amount = sparelite_to_mojo(amount_input.value);
     const amount_value = Number.parseInt(Number(amount));
-    // var fee = renamemelite_to_mojo(fee_input.value);
+    // var fee = sparelite_to_mojo(fee_input.value);
     // TODO(lipa): send fee to server
     // const fee_value = parseInt(Number(fee));
     dispatch(
       create_rl_admin_action(
         interval_value,
-        renamemeliteper_value,
+        spareliteper_value,
         userpubkey,
         amount_value,
       ),
@@ -225,7 +225,7 @@ export const CreateRLAdminWallet = () => {
               color="secondary"
               fullWidth
               inputRef={(input) => {
-                renamemeliteper_input = input;
+                spareliteper_input = input;
               }}
               label={<Trans>Spendable Amount</Trans>}
             />

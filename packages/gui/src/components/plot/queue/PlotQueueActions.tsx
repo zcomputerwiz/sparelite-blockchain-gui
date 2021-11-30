@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useDispatch } from 'react-redux';
-import { ConfirmDialog, More } from '@renamemelite/core';
+import { ConfirmDialog, More } from '@sparelite/core';
 import {
   Box,
   Divider,

@@ -10,7 +10,7 @@ import {
   FormatBytes,
   FormatConnectionStatus,
   Card,
-} from '@renamemelite/core';
+} from '@sparelite/core';
 import Connection from '../../types/Connection';
 import type { RootState } from '../../modules/rootReducer';
 import FarmCloseConnection from './FarmCloseConnection';

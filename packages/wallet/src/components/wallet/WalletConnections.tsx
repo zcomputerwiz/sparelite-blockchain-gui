@@ -5,11 +5,11 @@ import {
   FormatBytes,
   Loading,
   Table,
-} from '@renamemelite/core';
+} from '@sparelite/core';
 import { Tooltip } from '@material-ui/core';
 import { service_connection_types } from '../../util/service_names';
 import Connection from '../../types/Connection';
-import { useGetWalletConnectionsQuery } from '@renamemelite/api-react';
+import { useGetWalletConnectionsQuery } from '@sparelite/api-react';
 
 const cols = [
   {

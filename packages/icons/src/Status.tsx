@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import styled from 'styled-components';
-import { StateColor } from '@renamemelite/core';
+import { StateColor } from '@sparelite/core';
 import { FiberManualRecord as FiberManualRecordIcon } from '@material-ui/icons';
 
 const StyledFiberManualRecordIcon = styled(({ color, ...rest }) => (

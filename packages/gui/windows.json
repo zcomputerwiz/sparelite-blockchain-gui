@@ -1,5 +1,5 @@
 {
   "dest": "dist/installers/",
-  "icon": "src/assets/img/renamemelite.ico",
+  "icon": "src/assets/img/sparelite.ico",
   "tags": ["Blockchain"]
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
 import styled from 'styled-components';
-import { ConfirmDialog, useOpenDialog, LoadingOverlay, useShowError } from '@renamemelite/core';
+import { ConfirmDialog, useOpenDialog, LoadingOverlay, useShowError } from '@sparelite/core';
 import { Alert } from '@material-ui/lab';
 import {
   Tooltip,
@@ -19,7 +19,7 @@ import {
   useCheckDeleteKeyMutation,
   useDeleteKeyMutation,
   useLogInAndSkipImportMutation,
-} from '@renamemelite/api-react';
+} from '@sparelite/api-react';
 import SelectKeyDetailDialog from './SelectKeyDetailDialog';
 
 const StyledFingerprintListItem = styled(ListItem)`

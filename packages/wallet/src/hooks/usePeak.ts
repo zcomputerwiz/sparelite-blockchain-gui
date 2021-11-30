@@ -1,5 +1,5 @@
 import type Peak from '../types/Peak';
-import { useGetBlockchainStateQuery } from '@renamemelite/api-react';
+import { useGetBlockchainStateQuery } from '@sparelite/api-react';
 
 export default function usePeak(): {
   peak?: Peak;

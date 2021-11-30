@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { ModalDialogs } from '@renamemelite/core';
+import { ModalDialogs } from '@sparelite/core';
 import { RootState } from '../../modules/rootReducer';
 
 export default function AppModalDialogs() {

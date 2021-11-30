@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tab, Typography } from '@material-ui/core';
-import { Flex } from '@renamemelite/core';
+import { Flex } from '@sparelite/core';
 import Wallet from "../../types/Wallet";
 import WalletName from "../../constants/WalletName";
 import useTrans from '../../hooks/useTrans';

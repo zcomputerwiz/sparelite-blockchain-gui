@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import FarmCard from '../../farm/card/FarmCard';
 import useWallet from '../../../hooks/useWallet';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
-import { mojo_to_renamemelite_string } from '../../../util/renamemelite';
+import { mojo_to_sparelite_string } from '../../../util/sparelite';
 
 type Props = {
   wallet_id: number;
@@ -24,15 +24,15 @@ export default function WalletCardSpendableBalance(props: Props) {
       title={<Trans>Spendable Balance</Trans>}
       tooltip={
         <Trans>
-          This is the amount of Renameme that you can currently use to make
+          This is the amount of Spare that you can currently use to make
           transactions. It does not include pending farming rewards, pending
-          incoming transactions, and Renameme that you have just spent but is not
+          incoming transactions, and Spare that you have just spent but is not
           yet in the blockchain.
         </Trans>
       }
       value={
         <>
-          {mojo_to_renamemelite_string(value)} {currencyCode}
+          {mojo_to_sparelite_string(value)} {currencyCode}
         </>
       }
     />

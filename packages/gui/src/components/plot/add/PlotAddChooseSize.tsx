@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { Trans } from '@lingui/macro';
 import { useFormContext } from 'react-hook-form';
-import { CardStep, ConfirmDialog, Link, Select, StateColor } from '@renamemelite/core';
+import { CardStep, ConfirmDialog, Link, Select, StateColor } from '@sparelite/core';
 import {
   Grid,
   FormControl,
@@ -66,7 +66,7 @@ export default function PlotAddChooseSize() {
           }
           <Link
             target="_blank"
-            href="https://github.com/Renameme-Network/renameme-blockchain/wiki/k-sizes"
+            href="https://github.com/Spare-Network/spare-blockchain/wiki/k-sizes"
           >
             Learn more
           </Link>

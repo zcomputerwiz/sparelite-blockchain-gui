@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: hu_HU\n"
-"Project-Id-Version: renamemelite-blockchain\n"
+"Project-Id-Version: sparelite-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:40\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: renamemelite-blockchain\n"
+"X-Crowdin-Project: sparelite-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: hu\n"
-"X-Crowdin-File: /[Renameme-Network.renamemelite-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Spare-Network.sparelite-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgstr ""
 #~ msgstr "(nem kötelező)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-#~ msgid "*Want to explore Renameme’s blocks further? Check out <0>Renameme Explorer</0> built by an open source developer."
-#~ msgstr "Fel szeretnéd fedezni a Renameme rendszerét bővebben? Nézd meg a <0> Renameme Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
+#~ msgid "*Want to explore Spare’s blocks further? Check out <0>Spare Explorer</0> built by an open source developer."
+#~ msgstr "Fel szeretnéd fedezni a Spare rendszerét bővebben? Nézd meg a <0> Spare Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
 
 #: src/components/wallet/WalletHistory.tsx:111
 msgid "+"
@@ -60,12 +60,12 @@ msgstr ""
 
 #: src/electron/main.tsx:423
 #: src/electron/main.tsx:510
-#~ msgid "About Renameme Blockchain"
-#~ msgstr "A Renameme Blockchain-ről"
+#~ msgid "About Spare Blockchain"
+#~ msgstr "A Spare Blockchain-ről"
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Renameme Wallet"
+msgid "About Spare Wallet"
 msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -281,8 +281,8 @@ msgstr "Egyenleg"
 #~ msgstr "VDF-iterációk blokkja"
 
 #: src/components/block/Block.jsx:337
-#~ msgid "Block at height {0} in the Renameme blockchain"
-#~ msgstr "{0} Magasságú blokk a Renameme blokkláncban"
+#~ msgid "Block at height {0} in the Spare blockchain"
+#~ msgstr "{0} Magasságú blokk a Spare blokkláncban"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -347,7 +347,7 @@ msgstr "Mégsem"
 
 #: src/components/wallet/WalletSend.tsx:99
 #: src/components/wallet/cat/WalletCATSend.tsx:117
-msgid "Cannot send renamemelite to coloured address. Please enter a renamemelite address."
+msgid "Cannot send sparelite to coloured address. Please enter a sparelite address."
 msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:39
@@ -377,21 +377,21 @@ msgid "Chat on Discord"
 msgstr "Csevegés a Discord-n"
 
 #: src/electron/main.tsx:419
-msgid "Renameme"
-msgstr "Renameme"
+msgid "Spare"
+msgstr "Spare"
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:25
 #: src/components/wallet/create/WalletCreateList.tsx:32
-msgid "Renameme Asset Token"
+msgid "Spare Asset Token"
 msgstr ""
 
 #: src/electron/main.tsx:358
-msgid "Renameme Blockchain Wiki"
-msgstr "Renameme Blokklánc Wiki"
+msgid "Spare Blockchain Wiki"
+msgstr "Spare Blokklánc Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:23
-msgid "Renameme Wallet"
-msgstr "Renameme Pénztárca"
+msgid "Spare Wallet"
+msgstr "Spare Pénztárca"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 #~ msgid "Choose Number of Plots"
@@ -556,11 +556,11 @@ msgid "Create An Attestation Packet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:65
-#~ msgid "Create Renameme Asset Token Wallet"
+#~ msgid "Create Spare Asset Token Wallet"
 #~ msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:77
-msgid "Create Renameme Asset Token Wallet from Existing TAIL"
+msgid "Create Spare Asset Token Wallet from Existing TAIL"
 msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:290
@@ -572,7 +572,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateNew.tsx:77
-msgid "Create New Renameme Asset Token Wallet"
+msgid "Create New Spare Asset Token Wallet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:32
@@ -834,8 +834,8 @@ msgstr "Módosítás"
 #~ msgstr "Kifizetési utasítások módosítása"
 
 #: src/components/wallet/WalletImport.tsx:94
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Renameme wallet."
-msgstr "A Renameme pénztárca visszaállításához írja be az elmentett 24 szóból álló mnemonikát."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Spare wallet."
+msgstr "A Spare pénztárca visszaállításához írja be az elmentett 24 szóból álló mnemonikát."
 
 #: src/components/farm/card/FarmCard.tsx:57
 msgid "Error"
@@ -846,8 +846,8 @@ msgid "Error the entered address appears to be for a different colour."
 msgstr ""
 
 #: src/components/wallet/WalletSend.tsx:289
-#~ msgid "Error: Cannot send renamemelite to coloured address. Please enter a renamemelite address."
-#~ msgstr "Hiba: A renamemelite nem küldhető színes címre. Kérjük, adjon meg másik renamemelite címet."
+#~ msgid "Error: Cannot send sparelite to coloured address. Please enter a sparelite address."
+#~ msgstr "Hiba: A sparelite nem küldhető színes címre. Kérjük, adjon meg másik sparelite címet."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 #~ msgid "Estimated Network Space"
@@ -952,7 +952,7 @@ msgid "Fee"
 msgstr "Díj"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXFX)"
+#~ msgid "Fee (TSPARE)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1154,15 +1154,15 @@ msgstr "Intervallum"
 #~ msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-#~ msgid "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile."
+#~ msgid "Join a pool and get consistent SPARE farming rewards. The average returns are the same, but it is much less volatile."
 #~ msgstr ""
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-#~ msgid "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+#~ msgid "Join a pool and get consistent SPARE farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 #~ msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-#~ msgid "Join a pool and get more consistent XFX farming rewards. Create a plot NFT and assign your new plots to a group."
+#~ msgid "Join a pool and get more consistent SPARE farming rewards. Create a plot NFT and assign your new plots to a group."
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
@@ -1429,7 +1429,7 @@ msgstr "Nem szinkronizált"
 #~ msgstr "Nem talált Parcellát"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
-#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XFX reward for pooling plots."
+#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25SPARE reward for pooling plots."
 #~ msgstr ""
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
@@ -1706,8 +1706,8 @@ msgstr ""
 #~ msgstr "Szűrőn átjutott parcellák"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Renameme. <0>Learn more</0>"
-#~ msgstr "A cserepek a termesztéshez fenntartott helyek a merevlemezen, amikből Renameme nyerhető. <0>Részletek</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Spare. <0>Learn more</0>"
+#~ msgstr "A cserepek a termesztéshez fenntartott helyek a merevlemezen, amikből Spare nyerhető. <0>Részletek</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 #~ msgid "Plotting"
@@ -2118,7 +2118,7 @@ msgstr "Válassza ki a visszaállítási fájlt:"
 #~ msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-#~ msgid "Self pool. When you win a block you will earn XFX rewards."
+#~ msgid "Self pool. When you win a block you will earn SPARE rewards."
 #~ msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:164
@@ -2179,7 +2179,7 @@ msgstr "Bejelentkezés"
 #~ msgstr "Átugorja a végleges könyvtár hozzáadását a farmoláshoz"
 
 #: src/components/pool/PoolHero.tsx:26
-#~ msgid "Smooth out your XFX farming rewards by joining a pool."
+#~ msgid "Smooth out your SPARE farming rewards by joining a pool."
 #~ msgstr ""
 
 #: src/modules/message.js:568
@@ -2216,8 +2216,8 @@ msgstr "Költési időszak hossza (blokkok száma)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (renamemelite per interval): {0}"
-msgstr "Költési limit (renamemelite / intervallum): {0}"
+msgid "Spending Limit (sparelite per interval): {0}"
+msgstr "Költési limit (sparelite / intervallum): {0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -2264,8 +2264,8 @@ msgstr "Állapot:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Renameme blockchain"
-#~ msgstr "Sub Block at height {0} in the Renameme blockchain"
+#~ msgid "Sub Block at height {0} in the Spare blockchain"
+#~ msgstr "Sub Block at height {0} in the Spare blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2294,23 +2294,23 @@ msgstr "Szinkronizálás folyamatban"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXFX Block Rewards"
+#~ msgid "TSPARE Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXFX Farming Rewards"
+#~ msgid "TSPARE Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXFX Fees Collected"
+#~ msgid "TSPARE Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXFX User Fees"
-#~ msgstr "TXFX User Fees"
+#~ msgid "TSPARE User Fees"
+#~ msgstr "TSPARE User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXFX User Transaction Fees"
+#~ msgid "TSPARE User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2392,7 +2392,7 @@ msgstr "A pool URL-nek a https protokollt kell használnia. {normalizedUrl}"
 #~ msgstr "A tranzakciós díjak összesítve ebben a blokkban, mely a farmer jutalma."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
-#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XFX address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an SPARE address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 #~ msgstr ""
 
 #: src/components/plot/PlotsFailed.tsx:40
@@ -2422,8 +2422,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Ez a funkció csak a grafikus felhasználói felületrôl érhetô el."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Renameme that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Renameme that you have just spent but is not yet in the blockchain."
-msgstr "Ez az összeg Renameme, amelyet jelenleg felhasználhat tranzakciók lebonyolítására. Nem tartalmazza a függőben lévő gazdálkodási jutalmakat, a függőben lévő bejövő tranzakciókat és Chiát, amelyet most költött, de még nem tartozik a blokkláncba."
+msgid "This is the amount of Spare that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Spare that you have just spent but is not yet in the blockchain."
+msgstr "Ez az összeg Spare, amelyet jelenleg felhasználhat tranzakciók lebonyolítására. Nem tartalmazza a függőben lévő gazdálkodási jutalmakat, a függőben lévő bejövő tranzakciókat és Chiát, amelyet most költött, de még nem tartozik a blokkláncba."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:44
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2444,8 +2444,8 @@ msgstr ""
 #~ msgstr "Ekkor hozta létre a blokkot a gazdálkodó, ami még az idő igazolásával véglegesítés előtt van"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of renamemelite in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Ez az összes Renameme mennyiség a blokkláncban az aktuális csúcs alblokkban, amelyet a privát kulcsaid vezérelnek. Ez magában foglalja a befagyasztott gazdálkodási jutalmakat, de nem a függőben lévő bejövő és kimenő tranzakciókat."
+msgid "This is the total amount of sparelite in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Ez az összes Spare mennyiség a blokkláncban az aktuális csúcs alblokkban, amelyet a privát kulcsaid vezérelnek. Ez magában foglalja a befagyasztott gazdálkodási jutalmakat, de nem a függőben lévő bejövő és kimenő tranzakciókat."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:31
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2490,8 +2490,8 @@ msgstr "Ez a teljes egyenleg + függőben lévő egyenleg: ez lesz az egyenleged
 #~ msgstr "Ez a kereskedés a blokklánc ezen magasságán történt"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Renameme is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "A Renameme ezen verziója többé már nem kompatibilis a blokklánccal és nem biztonságos."
+#~ msgid "This version of Spare is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "A Spare ezen verziója többé már nem kompatibilis a blokklánccal és nem biztonságos."
 
 #: src/components/fullNode/FullNode.jsx:92
 #~ msgid "Time Created"
@@ -2527,8 +2527,8 @@ msgstr ""
 msgid "Total Balance"
 msgstr "Teljes egyenleg"
 
-#: src/components/farm/card/FarmCardTotalRenamemeFarmed.tsx:15
-#~ msgid "Total Renameme Farmed"
+#: src/components/farm/card/FarmCardTotalSpareFarmed.tsx:15
+#~ msgid "Total Spare Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2734,7 +2734,7 @@ msgstr "A tárca nem létezik"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.renamemeliteWallet"
+#~ msgid "WalletItem.spareliteWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2770,8 +2770,8 @@ msgstr "Tárcák"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Renameme? Add more plots to your farm."
-#~ msgstr "Szeretne többet keresni Renameme-val? Adjon hozzá több telket a gazdaságához (farmoláshoz)."
+#~ msgid "Want to earn more Spare? Add more plots to your farm."
+#~ msgstr "Szeretne többet keresni Spare-val? Adjon hozzá több telket a gazdaságához (farmoláshoz)."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 #~ msgid "Want to have a delay before the next plot starts?"
@@ -2798,8 +2798,8 @@ msgstr ""
 #~ msgstr "Az összes alblokk teljes hozzáadott nehézségének a súlya, egészen ehhez az egységig"
 
 #: src/components/selectKey/SelectKey.tsx:81
-msgid "Welcome to Renameme. Please log in with an existing key, or create a new key."
-msgstr "Üdvözöljük a Renameme-ban. Kérem jelentkezzen be egy létező kulccsal, vagy készítsen egy új kulcsot magának."
+msgid "Welcome to Spare. Please log in with an existing key, or create a new key."
+msgstr "Üdvözöljük a Spare-ban. Kérem jelentkezzen be egy létező kulccsal, vagy készítsen egy új kulcsot magának."
 
 #: src/components/wallet/WalletAdd.tsx:85
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2871,8 +2871,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Renameme application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Renameme application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Spare application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Spare application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 #~ msgid "You need {currencyCode} to join a pool."
@@ -2958,9 +2958,9 @@ msgstr "szinkronizálás"
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "Blokk jutalmak {currencyCode}"
 
-#: src/components/farm/card/FarmCardTotalRenamemeFarmed.tsx:29
-#~ msgid "{currencyCode} Total Renameme Farmed"
-#~ msgstr "Teljes farmolt Renameme mennyiség {currencyCode}"
+#: src/components/farm/card/FarmCardTotalSpareFarmed.tsx:29
+#~ msgid "{currencyCode} Total Spare Farmed"
+#~ msgstr "Teljes farmolt Spare mennyiség {currencyCode}"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 #~ msgid "{currencyCode} User Transaction Fees"

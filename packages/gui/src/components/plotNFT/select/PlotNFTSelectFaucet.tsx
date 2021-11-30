@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Button, Flex, CardStep } from '@renamemelite/core';
+import { Button, Flex, CardStep } from '@sparelite/core';
 import { Box, Typography } from '@material-ui/core';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
 import useOpenExternal from '../../../hooks/useOpenExternal';
@@ -16,7 +16,7 @@ export default function PlotNFTSelectFaucet(props: Props) {
   const openExternal = useOpenExternal();
 
   function handleClick() {
-    openExternal('https://faucet.renamemenetwork.org/');
+    openExternal('https://faucet.sparenetwork.org/');
   }
 
   return (

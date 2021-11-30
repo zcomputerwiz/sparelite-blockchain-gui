@@ -7,7 +7,7 @@ import {
   DialogTitle,
   DialogContent,
 } from '@material-ui/core';
-import { AlertDialog, ButtonLoading, DialogActions, Flex, Form, TextField, useOpenDialog } from '@renamemelite/core';
+import { AlertDialog, ButtonLoading, DialogActions, Flex, Form, TextField, useOpenDialog } from '@sparelite/core';
 
 type WalletRenameDialogFormData = {
   name: string;

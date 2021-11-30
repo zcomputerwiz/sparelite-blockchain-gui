@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Flex } from '@renamemelite/core';
+import { Flex } from '@sparelite/core';
 import WalletHistory from '../WalletHistory';
 import WalletStandardCards from './WalletStandardCards';
 import WalletReceiveAddress from '../WalletReceiveAddress';
@@ -20,7 +20,7 @@ export default function StandardWallet(props: StandardWalletProps) {
     <Flex flexDirection="column" gap={1}>
       <WalletHeader
         walletId={walletId}
-        title={<Trans>Renameme Wallet</Trans>}
+        title={<Trans>Spare Wallet</Trans>}
       />
 
       <Flex flexDirection="column" gap={3}>

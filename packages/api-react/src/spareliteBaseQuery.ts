@@ -1,12 +1,12 @@
 import { BaseQueryFn } from '@reduxjs/toolkit/query/react';
-import Client, { Service } from '@renamemelite/api';
+import Client, { Service } from '@sparelite/api';
 
 type Options = {
   client: Client;
   service: Service;
 };
 
-export default function renamemeliteBaseQuery(options: Options): BaseQueryFn<
+export default function spareliteBaseQuery(options: Options): BaseQueryFn<
   {
     command: string; 
     args?: any[],

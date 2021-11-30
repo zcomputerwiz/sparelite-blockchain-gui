@@ -1,6 +1,6 @@
 import React, { ReactNode, ReactElement } from 'react';
 import styled from 'styled-components';
-import { Flex, TooltipIcon } from '@renamemelite/core';
+import { Flex, TooltipIcon } from '@sparelite/core';
 import {
   Box,
   Card,

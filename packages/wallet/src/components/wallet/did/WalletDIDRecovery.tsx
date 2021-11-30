@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
-import { AlertDialog, Back, ButtonLoading, Card, Flex, Dropzone, useOpenDialog } from '@renamemelite/core';
+import { AlertDialog, Back, ButtonLoading, Card, Flex, Dropzone, useOpenDialog } from '@sparelite/core';
 import { Trans } from '@lingui/macro';
 import {
   Typography,

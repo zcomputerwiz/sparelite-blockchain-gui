@@ -1,8 +1,8 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import renamemeliteLazyBaseQuery from '../renamemeliteLazyBaseQuery';
-import { ConnectionState, ServiceName } from '@renamemelite/api';
+import spareliteLazyBaseQuery from '../spareliteLazyBaseQuery';
+import { ConnectionState, ServiceName } from '@sparelite/api';
 
-const baseQuery = renamemeliteLazyBaseQuery();
+const baseQuery = spareliteLazyBaseQuery();
 
 export const clientApi = createApi({
   reducerPath: 'clientApi',

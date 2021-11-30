@@ -7,7 +7,7 @@ import {
   CardStep,
   Flex,
   TextField,
-} from '@renamemelite/core';
+} from '@sparelite/core';
 import { Typography } from '@material-ui/core';
 import useSelectDirectory from '../../../hooks/useSelectDirectory';
 

@@ -11,13 +11,13 @@ import {
   Box,
   Typography,
 } from '@material-ui/core';
-import { Card, Flex } from '@renamemelite/core';
+import { Card, Flex } from '@sparelite/core';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import Grid from '@material-ui/core/Grid';
 import HelpIcon from '@material-ui/icons/Help';
 import { unix_to_short_date } from '../../util/utils';
 import { presetOverview, presentTrade } from '../../modules/trade';
-import { mojo_to_renamemelite_string } from '../../util/renamemelite';
+import { mojo_to_sparelite_string } from '../../util/sparelite';
 import {
   get_all_trades,
   cancel_trade_with_spend_action,
@@ -301,7 +301,7 @@ const OfferRow = (props) => {
       </Box>
       <Box flexGrow={1}>{side}</Box>
       <Box flexGrow={1} style={{ textAlign: 'right' }}>
-        {mojo_to_renamemelite_string(amount)}
+        {mojo_to_sparelite_string(amount)}
       </Box>
     </Box>
   );

@@ -14,16 +14,16 @@ function getInstallerConfig () {
   const outPath = path.join(rootPath, 'release-builds')
 
   return Promise.resolve({
-    appDirectory: path.join(rootPath, 'Renameme Light Wallet-win32-x64'),
-    authors: 'Renameme Network',
-    version: process.env.RENAMEME_INSTALLER_VERSION,
+    appDirectory: path.join(rootPath, 'Spare Light Wallet-win32-x64'),
+    authors: 'Spare Network',
+    version: process.env.SPARE_INSTALLER_VERSION,
     noMsi: true,
-    iconUrl: 'https://raw.githubusercontent.com/Renameme-Network/renameme-blockchain/master/electron-react/src/assets/img/renamemelite.ico',
+    iconUrl: 'https://raw.githubusercontent.com/Spare-Network/spare-blockchain/master/electron-react/src/assets/img/sparelite.ico',
     outputDirectory: path.join(outPath, 'windows-installer'),
     
     
-    exe: 'Renamemelite.exe',
-    setupExe: 'RenamemeliteSetup-' + process.env.RENAMEME_INSTALLER_VERSION + '.exe',
-    setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'renamemelite.ico')
+    exe: 'Sparelite.exe',
+    setupExe: 'SpareliteSetup-' + process.env.SPARE_INSTALLER_VERSION + '.exe',
+    setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'sparelite.ico')
   })
 }

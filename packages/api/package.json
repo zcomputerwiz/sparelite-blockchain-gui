@@ -1,8 +1,8 @@
 {
-  "name": "@renamemelite/api",
-  "author": "Renameme Network <hello@renamemenetwork.org> (https://renamemenetwork.org/)",
-  "description": "Renameme API Library",
-  "productName": "Renameme Blockchain",
+  "name": "@sparelite/api",
+  "author": "Spare Network <hello@sparenetwork.org> (https://sparenetwork.org/)",
+  "description": "Spare API Library",
+  "productName": "Spare Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {

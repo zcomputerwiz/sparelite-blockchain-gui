@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sq_AL\n"
-"Project-Id-Version: renamemelite-blockchain\n"
+"Project-Id-Version: sparelite-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:40\n"
 "Last-Translator: \n"
 "Language-Team: Albanian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: renamemelite-blockchain\n"
+"X-Crowdin-Project: sparelite-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sq\n"
-"X-Crowdin-File: /[Renameme-Network.renamemelite-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Spare-Network.sparelite-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr "(Opsionale)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Renameme’s blocks further? Check out <0>Renameme Explorer</0> built by an open source developer."
-msgstr "Dëshiron të mësosh më shumë rreth Renameme's? Kliko në <0> Renameme Explorer</0> e ndërtuar nga një programues open source."
+msgid "*Want to explore Spare’s blocks further? Check out <0>Spare Explorer</0> built by an open source developer."
+msgstr "Dëshiron të mësosh më shumë rreth Spare's? Kliko në <0> Spare Explorer</0> e ndërtuar nga një programues open source."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -48,8 +48,8 @@ msgstr "Korrësi eshte nje shërbim i cili është i integruar në pajisjen ku P
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Renameme Blockchain"
-msgstr "Rreth zinxhirit Renameme"
+msgid "About Spare Blockchain"
+msgstr "Rreth zinxhirit Spare"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -228,8 +228,8 @@ msgid "Block VDF Iterations"
 msgstr "Përsëritjet e Bllokut VDF"
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Renameme blockchain"
-msgstr "Blloku ne lartësin {0} ne Zinxhirin Renameme"
+msgid "Block at height {0} in the Spare blockchain"
+msgstr "Blloku ne lartësin {0} ne Zinxhirin Spare"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -322,16 +322,16 @@ msgid "Chat on Discord"
 msgstr "Shkruaj në Discord"
 
 #: src/electron/main.tsx:419
-msgid "Renameme"
-msgstr "Renameme"
+msgid "Spare"
+msgstr "Spare"
 
 #: src/electron/main.tsx:358
-msgid "Renameme Blockchain Wiki"
-msgstr "Zinxhiri Renameme Wiki"
+msgid "Spare Blockchain Wiki"
+msgstr "Zinxhiri Spare Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
-msgid "Renameme Wallet"
-msgstr "Kuleta Renameme"
+msgid "Spare Wallet"
+msgstr "Kuleta Spare"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -737,8 +737,8 @@ msgid "Edit Payout Instructions"
 msgstr "Ndryshoni udhëzimet e pagesës"
 
 #: src/components/wallet/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Renameme wallet."
-msgstr "Shkruaj 24 fjalët mnemonic që ke ruajtur pëer të rikthyer Kuletën tende Renameme."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Spare wallet."
+msgstr "Shkruaj 24 fjalët mnemonic që ke ruajtur pëer të rikthyer Kuletën tende Spare."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -751,8 +751,8 @@ msgid "Error"
 msgstr "Gabim"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send renamemelite to coloured address. Please enter a renamemelite address."
-msgstr "Gabim: Nuk mund te dergojmë Renameme në Adresën e dhënë. Ju lutemi vendosni një adresë Renameme."
+msgid "Error: Cannot send sparelite to coloured address. Please enter a sparelite address."
+msgstr "Gabim: Nuk mund te dergojmë Spare në Adresën e dhënë. Ju lutemi vendosni një adresë Spare."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -861,7 +861,7 @@ msgid "Fee"
 msgstr "Tarifa"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXFX)"
+#~ msgid "Fee (TSPARE)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1066,16 +1066,16 @@ msgid "Join a Pool"
 msgstr "Bashkohu me një poll"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-msgid "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile."
-msgstr "Anëtarësohuni në një pishinë dhe merrni shpërblime të qëndrueshme XFX. Kthimi mesatar është i njëjtë, por është shumë më pak i paqëndrueshëm."
+msgid "Join a pool and get consistent SPARE farming rewards. The average returns are the same, but it is much less volatile."
+msgstr "Anëtarësohuni në një pishinë dhe merrni shpërblime të qëndrueshme SPARE. Kthimi mesatar është i njëjtë, por është shumë më pak i paqëndrueshëm."
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-msgstr "Anëtarësohuni në një poll dhe merrni shpërblime të qëndrueshme në XFX. Kthimi mesatar është i njëjtë, por është shumë më pak i paqëndrueshëm. Caktoni një komplot NFT. Ju lehtë mund të ndërroni pollet pa pasur nevojë të ri-plotoni."
+msgid "Join a pool and get consistent SPARE farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgstr "Anëtarësohuni në një poll dhe merrni shpërblime të qëndrueshme në SPARE. Kthimi mesatar është i njëjtë, por është shumë më pak i paqëndrueshëm. Caktoni një komplot NFT. Ju lehtë mund të ndërroni pollet pa pasur nevojë të ri-plotoni."
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-msgid "Join a pool and get more consistent XFX farming rewards. Create a plot NFT and assign your new plots to a group."
-msgstr "Bashkohuni me një poll dhe merrni shpërblime më të qëndrueshme XFX. Krijoni një plot NFT dhe caktoni plotet tuaja të reja në një grup."
+msgid "Join a pool and get more consistent SPARE farming rewards. Create a plot NFT and assign your new plots to a group."
+msgstr "Bashkohuni me një poll dhe merrni shpërblime më të qëndrueshme SPARE. Krijoni një plot NFT dhe caktoni plotet tuaja të reja në një grup."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "K-Size"
@@ -1316,8 +1316,8 @@ msgid "Not found Plots"
 msgstr "Nuk gjenden Plotet"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XFX reward for pooling plots."
-msgstr "Vini re se kjo nuk ndryshon adresat tuaja të grumbullimit të pagesave. Kjo ndikon vetëm në komplotet e formatit të vjetër dhe në shpërblimin 0.25XFX për komplotet e bashkimit."
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25SPARE reward for pooling plots."
+msgstr "Vini re se kjo nuk ndryshon adresat tuaja të grumbullimit të pagesave. Kjo ndikon vetëm në komplotet e formatit të vjetër dhe në shpërblimin 0.25SPARE për komplotet e bashkimit."
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
 #: src/components/plotNFT/PlotNFTCard.tsx:160
@@ -1576,8 +1576,8 @@ msgid "Plots Passed Filter"
 msgstr "Plotet e kaluan filtërin"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Renameme. <0>Learn more</0>"
-msgstr "Ploteve u është dhënë hapësirë në hard diskun tuaj që përdoret për të fermuar dhe fituar Renameme. <0> Mësoni më shumë </0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Spare. <0>Learn more</0>"
+msgstr "Ploteve u është dhënë hapësirë në hard diskun tuaj që përdoret për të fermuar dhe fituar Spare. <0> Mësoni më shumë </0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -1952,8 +1952,8 @@ msgid "Self Pooling"
 msgstr "Vetë grumbullimi"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn XFX rewards."
-msgstr "Vetë grumbullimi. Kur të fitoni një bllok, do të fitoni shpërblime XFX."
+msgid "Self pool. When you win a block you will earn SPARE rewards."
+msgstr "Vetë grumbullimi. Kur të fitoni një bllok, do të fitoni shpërblime SPARE."
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -2005,8 +2005,8 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "Kalon duke shtuar një direktori përfundimtare"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XFX farming rewards by joining a pool."
-msgstr "Z'busni shpërblimet tuaja XFX duke u bashkuar me një poll."
+msgid "Smooth out your SPARE farming rewards by joining a pool."
+msgstr "Z'busni shpërblimet tuaja SPARE duke u bashkuar me një poll."
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
 msgid "Something went wrong"
@@ -2041,8 +2041,8 @@ msgstr "Gjatësia e intervalit të shpenzimeve (numri i blloqeve)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (renamemelite per interval): {0}"
-msgstr "Kufiri i shpenzimeve (renamemelite për interval): {0}"
+msgid "Spending Limit (sparelite per interval): {0}"
+msgstr "Kufiri i shpenzimeve (sparelite për interval): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2090,8 +2090,8 @@ msgstr "Statusi:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Renameme blockchain"
-#~ msgstr "Sub Block at height {0} in the Renameme blockchain"
+#~ msgid "Sub Block at height {0} in the Spare blockchain"
+#~ msgstr "Sub Block at height {0} in the Spare blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2119,23 +2119,23 @@ msgstr "Sinkronizimi <0/>/<1/>"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXFX Block Rewards"
+#~ msgid "TSPARE Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXFX Farming Rewards"
+#~ msgid "TSPARE Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXFX Fees Collected"
+#~ msgid "TSPARE Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXFX User Fees"
-#~ msgstr "TXFX User Fees"
+#~ msgid "TSPARE User Fees"
+#~ msgstr "TSPARE User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXFX User Transaction Fees"
+#~ msgid "TSPARE User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2217,8 +2217,8 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Tarifat totale të transaksioneve në këtë bllok. Shpërblyer për fermerin."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XFX address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr "Këto janë udhëzimet se si fermeri dëshiron të paguhet. Si parazgjedhje kjo do të jetë një adresë XFX, por mund të vendoset në çdo varg me madhësi më të vogël se 1024 karaktere, kështu që mund të përfaqësojë një tjetër identifikues të bllokut ose sistemit të pagesave."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an SPARE address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr "Këto janë udhëzimet se si fermeri dëshiron të paguhet. Si parazgjedhje kjo do të jetë një adresë SPARE, por mund të vendoset në çdo varg me madhësi më të vogël se 1024 karaktere, kështu që mund të përfaqësojë një tjetër identifikues të bllokut ose sistemit të pagesave."
 
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."
@@ -2240,8 +2240,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Kjo veçori është në dispozicion vetëm nga GUI."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Renameme that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Renameme that you have just spent but is not yet in the blockchain."
-msgstr "Kjo është shuma e Renameme që mund të përdorni aktualisht për të bërë transaksione. Nuk përfshin shpërblime në pritje të, transaksione në hyrje dhe Renameme që sapo keni shpenzuar, por që nuk është ende në blockchain."
+msgid "This is the amount of Spare that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Spare that you have just spent but is not yet in the blockchain."
+msgstr "Kjo është shuma e Spare që mund të përdorni aktualisht për të bërë transaksione. Nuk përfshin shpërblime në pritje të, transaksione në hyrje dhe Spare që sapo keni shpenzuar, por që nuk është ende në blockchain."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2260,8 +2260,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Kjo është koha kur blloku është krijuar nga fermeri, e cila është para se të finalizohet me një provë të kohës"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of renamemelite in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Kjo është sasia totale e renamemelite në blockchain në nën bllok bllokun aktual që kontrollohet nga çelësat tuaj privatë. Ai përfshin shpërblime të ngrira, por jo në pritje të transaksioneve hyrëse dhe dalëse."
+msgid "This is the total amount of sparelite in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Kjo është sasia totale e sparelite në blockchain në nën bllok bllokun aktual që kontrollohet nga çelësat tuaj privatë. Ai përfshin shpërblime të ngrira, por jo në pritje të transaksioneve hyrëse dhe dalëse."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2306,8 +2306,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Kjo tregti u përfshi në bllokimin në këtë lartësi të bllokut"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Renameme is no longer compatible with the blockchain and can not safely farm."
-msgstr "Ky version i Renameme nuk është më i pajtueshëm me blockchain dhe nuk mund të fermojë në mënyrë të sigurt."
+msgid "This version of Spare is no longer compatible with the blockchain and can not safely farm."
+msgstr "Ky version i Spare nuk është më i pajtueshëm me blockchain dhe nuk mund të fermojë në mënyrë të sigurt."
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2331,8 +2331,8 @@ msgstr "Për"
 msgid "Total Balance"
 msgstr "Totali i balances"
 
-#: src/components/farm/card/FarmCardTotalRenamemeFarmed.tsx:15
-#~ msgid "Total Renameme Farmed"
+#: src/components/farm/card/FarmCardTotalSpareFarmed.tsx:15
+#~ msgid "Total Spare Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2508,7 +2508,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.renamemeliteWallet"
+#~ msgid "WalletItem.spareliteWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2545,8 +2545,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Dëshironi të bashkoheni në një poll? Krijoni një plot NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Renameme? Add more plots to your farm."
-msgstr "Dëshironi të fitoni më shumë Renameme? Shtoni më shumë plote në fermën tuaj."
+msgid "Want to earn more Spare? Add more plots to your farm."
+msgstr "Dëshironi të fitoni më shumë Spare? Shtoni më shumë plote në fermën tuaj."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2573,8 +2573,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Pesha është vështirësia totale e shtuar e të gjitha nën blloqeve deri dhe duke përfshirë këtë"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Renameme. Please log in with an existing key, or create a new key."
-msgstr "Mirësevini në Renameme. Ju lutemi identifikohuni me një çelës ekzistues, ose krijoni një çelës të ri."
+msgid "Welcome to Spare. Please log in with an existing key, or create a new key."
+msgstr "Mirësevini në Spare. Ju lutemi identifikohuni me një çelës ekzistues, ose krijoni një çelës të ri."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2648,8 +2648,8 @@ msgid "You need to claim your rewards first"
 msgstr "Së pari duhet të kërkoni shpërblimet tuaja"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Renameme application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Renameme application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Spare application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Spare application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -2740,9 +2740,9 @@ msgstr "{0} pikë {1} - {2} orë më parë"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Shpërblimet e bllokut"
 
-#: src/components/farm/card/FarmCardTotalRenamemeFarmed.tsx:29
-msgid "{currencyCode} Total Renameme Farmed"
-msgstr "{currencyCode} Totali i Renameme"
+#: src/components/farm/card/FarmCardTotalSpareFarmed.tsx:29
+msgid "{currencyCode} Total Spare Farmed"
+msgstr "{currencyCode} Totali i Spare"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

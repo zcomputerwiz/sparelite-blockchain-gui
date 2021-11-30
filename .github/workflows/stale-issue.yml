@@ -8,7 +8,7 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: renamemelite-network/stale@main
+      - uses: sparelite-network/stale@main
         with:
           operations-per-run: 10000
           ascending: true

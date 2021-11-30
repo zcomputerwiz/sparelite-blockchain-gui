@@ -1,4 +1,4 @@
-import { ServiceName } from '@renamemelite/api';
+import { ServiceName } from '@sparelite/api';
 
 const ServiceHumanName = {
   [ServiceName.WALLET]: 'Wallet',

@@ -1,10 +1,10 @@
-export const service_wallet = 'renamemelite_wallet';
-export const service_full_node = 'renamemelite_full_node';
-export const service_farmer = 'renamemelite_farmer';
-export const service_harvester = 'renamemelite_harvester';
-export const service_simulator = 'renamemelite_full_node_simulator';
+export const service_wallet = 'sparelite_wallet';
+export const service_full_node = 'sparelite_full_node';
+export const service_farmer = 'sparelite_farmer';
+export const service_harvester = 'sparelite_harvester';
+export const service_simulator = 'sparelite_full_node_simulator';
 export const service_daemon = 'daemon';
-export const service_plotter = 'renamemelite plots create';
+export const service_plotter = 'sparelite plots create';
 
 // Corresponds with outbound_message.py NodeTypes
 export const service_connection_types = {

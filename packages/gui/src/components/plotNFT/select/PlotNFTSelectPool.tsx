@@ -6,12 +6,12 @@ import React, {
 } from 'react';
 import { t, Trans } from '@lingui/macro';
 import { useForm } from 'react-hook-form';
-import { ButtonLoading, Loading, Flex, Form, FormBackButton } from '@renamemelite/core';
+import { ButtonLoading, Loading, Flex, Form, FormBackButton } from '@sparelite/core';
 import PlotNFTSelectBase from './PlotNFTSelectBase';
 import normalizeUrl from '../../../util/normalizeUrl';
 import getPoolInfo from '../../../util/getPoolInfo';
 import InitialTargetState from '../../../types/InitialTargetState';
-import { renamemelite_to_mojo } from '../../../util/renamemelite';
+import { sparelite_to_mojo } from '../../../util/sparelite';
 import useStandardWallet from '../../../hooks/useStandardWallet';
 import PlotNFTSelectFaucet from './PlotNFTSelectFaucet';
 
@@ -43,7 +43,7 @@ async function prepareSubmitData(data: FormData): SubmitData {
     initialTargetState.relative_lock_height = relative_lock_height;
   }
 
-  const feeMojos = renamemelite_to_mojo(fee);
+  const feeMojos = sparelite_to_mojo(fee);
 
   return {
     fee: feeMojos,

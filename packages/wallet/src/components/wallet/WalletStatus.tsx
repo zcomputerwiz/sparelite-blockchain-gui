@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
-import { Loading, State, StateIndicator } from '@renamemelite/core';
-import { useGetSyncStatusQuery } from '@renamemelite/api-react';
+import { Loading, State, StateIndicator } from '@sparelite/core';
+import { useGetSyncStatusQuery } from '@sparelite/api-react';
 import { Typography } from '@material-ui/core';
 import type { RootState } from '../../modules/rootReducer';
 import getWalletSyncingStatus from '../../util/getWalletSyncingStatus';

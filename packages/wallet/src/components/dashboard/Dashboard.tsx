@@ -8,8 +8,8 @@ import {
   Flex,
   Logo,
   ToolbarSpacing,
-} from '@renamemelite/core';
-import { useAppDispatch, walletApi } from '@renamemelite/api-react';
+} from '@sparelite/core';
+import { useAppDispatch, walletApi } from '@sparelite/api-react';
 import { t } from '@lingui/macro';
 import { ExitToApp as ExitToAppIcon } from '@material-ui/icons';
 import { defaultLocale, locales } from '../../config/locales';

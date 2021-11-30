@@ -1,8 +1,8 @@
 {
-  "name": "@renamemelite/core",
-  "author": "Renameme Network <hello@renamemenetwork.org> (https://renamemenetwork.org/)",
-  "description": "Renameme Core Library",
-  "productName": "Renameme Blockchain",
+  "name": "@sparelite/core",
+  "author": "Spare Network <hello@sparenetwork.org> (https://sparenetwork.org/)",
+  "description": "Spare Core Library",
+  "productName": "Spare Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "@babel/runtime": "^7.16.3",
     "@lingui/macro": "^3.12.1",
-    "@renamemelite/icons": "^1.0.0",
+    "@sparelite/icons": "^1.0.0",
     "@rehooks/local-storage": "^2.4.3",
     "bytes-iec": "^3.1.1",
     "cookie": "^0.4.1",
@@ -40,7 +40,7 @@
     "use-dark-mode": "^2.3.1"
   },
   "peerDependencies": {
-    "@renamemelite/api-react": "^1.0.0",
+    "@sparelite/api-react": "^1.0.0",
     "@lingui/core": "^3.12.1",
     "@lingui/react": "^3.12.1",
     "@material-ui/core": "^4.12.3",

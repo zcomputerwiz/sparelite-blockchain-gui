@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { FormatLargeNumber } from '@renamemelite/core';
+import { FormatLargeNumber } from '@sparelite/core';
 import FarmCard from './FarmCard';
 import usePlots from '../../../hooks/usePlots';
 

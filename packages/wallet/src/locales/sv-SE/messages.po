@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sv_SE\n"
-"Project-Id-Version: renamemelite-blockchain\n"
+"Project-Id-Version: sparelite-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:39\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: renamemelite-blockchain\n"
+"X-Crowdin-Project: sparelite-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sv-SE\n"
-"X-Crowdin-File: /[Renameme-Network.renamemelite-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Spare-Network.sparelite-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgstr ""
 #~ msgstr "(Valfritt)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-#~ msgid "*Want to explore Renameme’s blocks further? Check out <0>Renameme Explorer</0> built by an open source developer."
-#~ msgstr "*Vill du utforska Renamemes block lite mer? Ta en titt på <0>Renameme Explorer</0> som har skapats som öppen källkod av en utvecklare."
+#~ msgid "*Want to explore Spare’s blocks further? Check out <0>Spare Explorer</0> built by an open source developer."
+#~ msgstr "*Vill du utforska Spares block lite mer? Ta en titt på <0>Spare Explorer</0> som har skapats som öppen källkod av en utvecklare."
 
 #: src/components/wallet/WalletHistory.tsx:111
 msgid "+"
@@ -60,12 +60,12 @@ msgstr ""
 
 #: src/electron/main.tsx:423
 #: src/electron/main.tsx:510
-#~ msgid "About Renameme Blockchain"
-#~ msgstr "Om Renameme Blockchain"
+#~ msgid "About Spare Blockchain"
+#~ msgstr "Om Spare Blockchain"
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Renameme Wallet"
+msgid "About Spare Wallet"
 msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -281,8 +281,8 @@ msgstr "Saldo"
 #~ msgstr "VDF-iterationer för block"
 
 #: src/components/block/Block.jsx:337
-#~ msgid "Block at height {0} in the Renameme blockchain"
-#~ msgstr "Block vid höjd {0} i Renameme-blockkedjan"
+#~ msgid "Block at height {0} in the Spare blockchain"
+#~ msgstr "Block vid höjd {0} i Spare-blockkedjan"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -347,7 +347,7 @@ msgstr "Avbryt"
 
 #: src/components/wallet/WalletSend.tsx:99
 #: src/components/wallet/cat/WalletCATSend.tsx:117
-msgid "Cannot send renamemelite to coloured address. Please enter a renamemelite address."
+msgid "Cannot send sparelite to coloured address. Please enter a sparelite address."
 msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:39
@@ -377,21 +377,21 @@ msgid "Chat on Discord"
 msgstr "Chatta på Discord"
 
 #: src/electron/main.tsx:419
-msgid "Renameme"
-msgstr "Renameme"
+msgid "Spare"
+msgstr "Spare"
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:25
 #: src/components/wallet/create/WalletCreateList.tsx:32
-msgid "Renameme Asset Token"
+msgid "Spare Asset Token"
 msgstr ""
 
 #: src/electron/main.tsx:358
-msgid "Renameme Blockchain Wiki"
-msgstr "Renameme Blockchains wiki"
+msgid "Spare Blockchain Wiki"
+msgstr "Spare Blockchains wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:23
-msgid "Renameme Wallet"
-msgstr "Renameme-plånbok"
+msgid "Spare Wallet"
+msgstr "Spare-plånbok"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 #~ msgid "Choose Number of Plots"
@@ -556,11 +556,11 @@ msgid "Create An Attestation Packet"
 msgstr "Skapa ett attestpaket"
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:65
-#~ msgid "Create Renameme Asset Token Wallet"
+#~ msgid "Create Spare Asset Token Wallet"
 #~ msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:77
-msgid "Create Renameme Asset Token Wallet from Existing TAIL"
+msgid "Create Spare Asset Token Wallet from Existing TAIL"
 msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:290
@@ -572,7 +572,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr "Skapa distribuerad identitetsplånbok"
 
 #: src/components/wallet/cat/WalletCATCreateNew.tsx:77
-msgid "Create New Renameme Asset Token Wallet"
+msgid "Create New Spare Asset Token Wallet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:32
@@ -834,8 +834,8 @@ msgstr "Redigera"
 #~ msgstr "Redigera utbetalningsinstruktioner"
 
 #: src/components/wallet/WalletImport.tsx:94
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Renameme wallet."
-msgstr "Skriv in din sparade minnesfras på 24 ord för att återställa din Renameme-plånbok."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Spare wallet."
+msgstr "Skriv in din sparade minnesfras på 24 ord för att återställa din Spare-plånbok."
 
 #: src/components/farm/card/FarmCard.tsx:57
 msgid "Error"
@@ -846,8 +846,8 @@ msgid "Error the entered address appears to be for a different colour."
 msgstr ""
 
 #: src/components/wallet/WalletSend.tsx:289
-#~ msgid "Error: Cannot send renamemelite to coloured address. Please enter a renamemelite address."
-#~ msgstr "Fel: det går inte att skicka renamemelite till färgad adress. Ange en renamemelite-adress."
+#~ msgid "Error: Cannot send sparelite to coloured address. Please enter a sparelite address."
+#~ msgstr "Fel: det går inte att skicka sparelite till färgad adress. Ange en sparelite-adress."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 #~ msgid "Estimated Network Space"
@@ -952,7 +952,7 @@ msgid "Fee"
 msgstr "Avgift"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXFX)"
+#~ msgid "Fee (TSPARE)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1154,16 +1154,16 @@ msgstr "Intervall"
 #~ msgstr "Gå med i en pool"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-#~ msgid "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile."
-#~ msgstr "Gå med i en pool och få konsekventa XFX-odlingsbelöningar. Genomsnittlig avkastning är densamma, men den är mycket mindre variabel."
+#~ msgid "Join a pool and get consistent SPARE farming rewards. The average returns are the same, but it is much less volatile."
+#~ msgstr "Gå med i en pool och få konsekventa SPARE-odlingsbelöningar. Genomsnittlig avkastning är densamma, men den är mycket mindre variabel."
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-#~ msgid "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-#~ msgstr "Gå med i en pool och få konsekventa XFX-odlingsbelöningar. Genomsnittlig avkastning är densamma, men den är mycket mindre variabel. Tilldela plottar till en plott-NFT. Du kan enkelt byta pool utan att behöva plotta om."
+#~ msgid "Join a pool and get consistent SPARE farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+#~ msgstr "Gå med i en pool och få konsekventa SPARE-odlingsbelöningar. Genomsnittlig avkastning är densamma, men den är mycket mindre variabel. Tilldela plottar till en plott-NFT. Du kan enkelt byta pool utan att behöva plotta om."
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-#~ msgid "Join a pool and get more consistent XFX farming rewards. Create a plot NFT and assign your new plots to a group."
-#~ msgstr "Gå med i en pool och få mer konsekventa XFX-odlingsbelöningar. Skapa en plott-NFT och tilldela dina nya plottar till en grupp."
+#~ msgid "Join a pool and get more consistent SPARE farming rewards. Create a plot NFT and assign your new plots to a group."
+#~ msgstr "Gå med i en pool och få mer konsekventa SPARE-odlingsbelöningar. Skapa en plott-NFT och tilldela dina nya plottar till en grupp."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 #~ msgid "K-Size"
@@ -1429,8 +1429,8 @@ msgstr "Ej synkad"
 #~ msgstr "Ej hittade plottar"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
-#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XFX reward for pooling plots."
-#~ msgstr "Observera att detta inte ändrar dina poolutbetalningsadresser. Detta påverkar endast plottar med det gamla formatet och belöningen 0.25XFX för poolplotter."
+#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25SPARE reward for pooling plots."
+#~ msgstr "Observera att detta inte ändrar dina poolutbetalningsadresser. Detta påverkar endast plottar med det gamla formatet och belöningen 0.25SPARE för poolplotter."
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
 #: src/components/plotNFT/PlotNFTCard.tsx:160
@@ -1706,8 +1706,8 @@ msgstr "Vänta på synkronisering av plånboken"
 #~ msgstr "Plottar som passerat filtret"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Renameme. <0>Learn more</0>"
-#~ msgstr "Plottar är reserverat utrymme på din hårddisk som används för att odla och tjäna Renameme. <0>Läs mer</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Spare. <0>Learn more</0>"
+#~ msgstr "Plottar är reserverat utrymme på din hårddisk som används för att odla och tjäna Spare. <0>Läs mer</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 #~ msgid "Plotting"
@@ -2118,8 +2118,8 @@ msgstr "Vald återställningsfil:"
 #~ msgstr "Självpoolning"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-#~ msgid "Self pool. When you win a block you will earn XFX rewards."
-#~ msgstr "Självpoolning. När du vinner ett block tjänar du XFX-belöningar."
+#~ msgid "Self pool. When you win a block you will earn SPARE rewards."
+#~ msgstr "Självpoolning. När du vinner ett block tjänar du SPARE-belöningar."
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -2179,8 +2179,8 @@ msgstr "Logga in"
 #~ msgstr "Hoppar över steget att lägga till en slutlig mapp till skördaren för odling"
 
 #: src/components/pool/PoolHero.tsx:26
-#~ msgid "Smooth out your XFX farming rewards by joining a pool."
-#~ msgstr "Jämna ut dina XFX-odlarbelöningar genom att gå med i en pool."
+#~ msgid "Smooth out your SPARE farming rewards by joining a pool."
+#~ msgstr "Jämna ut dina SPARE-odlarbelöningar genom att gå med i en pool."
 
 #: src/modules/message.js:568
 #: src/modules/message.js:583
@@ -2216,8 +2216,8 @@ msgstr "Längd på spenderintervall (antal block)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (renamemelite per interval): {0}"
-msgstr "Spenderbegränsning (renamemelite per intervall): {0}"
+msgid "Spending Limit (sparelite per interval): {0}"
+msgstr "Spenderbegränsning (sparelite per intervall): {0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -2264,8 +2264,8 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Renameme blockchain"
-#~ msgstr "Sub Block at height {0} in the Renameme blockchain"
+#~ msgid "Sub Block at height {0} in the Spare blockchain"
+#~ msgstr "Sub Block at height {0} in the Spare blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2294,23 +2294,23 @@ msgstr "Synkar"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXFX Block Rewards"
+#~ msgid "TSPARE Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXFX Farming Rewards"
+#~ msgid "TSPARE Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXFX Fees Collected"
+#~ msgid "TSPARE Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXFX User Fees"
-#~ msgstr "TXFX User Fees"
+#~ msgid "TSPARE User Fees"
+#~ msgstr "TSPARE User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXFX User Transaction Fees"
+#~ msgid "TSPARE User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2392,8 +2392,8 @@ msgstr "Pool-URL måste använda protokollet https. {normalizedUrl}"
 #~ msgstr "Summan av transaktionsavgifterna i detta block. Utbetalda till odlaren."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
-#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XFX address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-#~ msgstr "Det här är instruktionerna för hur odlaren vill få betalt. Som standard är det en XFX-adress, men det kan ställas in till vilken sträng som helst med en storlek på färrre än 1024 tecken, så det kan representera en identifierare för en annan blockkedja eller betalningssystem."
+#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an SPARE address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgstr "Det här är instruktionerna för hur odlaren vill få betalt. Som standard är det en SPARE-adress, men det kan ställas in till vilken sträng som helst med en storlek på färrre än 1024 tecken, så det kan representera en identifierare för en annan blockkedja eller betalningssystem."
 
 #: src/components/plot/PlotsFailed.tsx:40
 #~ msgid "These plots are invalid, you might want to delete them."
@@ -2422,8 +2422,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Denna funktion kan bara användas från GUI."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Renameme that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Renameme that you have just spent but is not yet in the blockchain."
-msgstr "Detta är den mängd Renameme du för tillfället kan använda för transaktioner. Det innefattar inte väntande odlingsbelöningar, väntande inkommande transaktioner eller Renameme som du just spenderat men som ännu inte finns i blockkedjan."
+msgid "This is the amount of Spare that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Spare that you have just spent but is not yet in the blockchain."
+msgstr "Detta är den mängd Spare du för tillfället kan använda för transaktioner. Det innefattar inte väntande odlingsbelöningar, väntande inkommande transaktioner eller Spare som du just spenderat men som ännu inte finns i blockkedjan."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:44
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2442,8 +2442,8 @@ msgstr "Detta är summan av inkommande och utgående väntande transaktioner (so
 #~ msgstr "Detta är den tidpunkt då blocket skapades av odlaren, vilket är innan det färdigställs med ett bevis-på-tid"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of renamemelite in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Detta är den sammanlagda mängden renamemelite i blockkedjan vid det aktuella topp-underblocket som kontrolleras av dina privata nycklar. Det innefattar frusna odlingsbelöningar, men inte väntande inkommande och utgående transaktioner."
+msgid "This is the total amount of sparelite in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Detta är den sammanlagda mängden sparelite i blockkedjan vid det aktuella topp-underblocket som kontrolleras av dina privata nycklar. Det innefattar frusna odlingsbelöningar, men inte väntande inkommande och utgående transaktioner."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:31
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2488,8 +2488,8 @@ msgstr "Detta är totalt saldo + väntande saldo: det är vad ditt saldo kommer 
 #~ msgstr "Denna affärstransaktion lades till i blockkedjan vid denna blockhöjd"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Renameme is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "Denna version av Renameme är inte längre kompatibel med blockkedjan och kan därför inte användas för odling."
+#~ msgid "This version of Spare is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "Denna version av Spare är inte längre kompatibel med blockkedjan och kan därför inte användas för odling."
 
 #: src/components/fullNode/FullNode.jsx:92
 #~ msgid "Time Created"
@@ -2525,8 +2525,8 @@ msgstr ""
 msgid "Total Balance"
 msgstr "Totalt saldo"
 
-#: src/components/farm/card/FarmCardTotalRenamemeFarmed.tsx:15
-#~ msgid "Total Renameme Farmed"
+#: src/components/farm/card/FarmCardTotalSpareFarmed.tsx:15
+#~ msgid "Total Spare Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2732,7 +2732,7 @@ msgstr "Plånboken finns inte"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.renamemeliteWallet"
+#~ msgid "WalletItem.spareliteWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2768,8 +2768,8 @@ msgstr "Plånböcker"
 #~ msgstr "Vill du gå med i en pool? Skapa en plot-NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Renameme? Add more plots to your farm."
-#~ msgstr "Vill du tjäna mer Renameme? Lägg till fler plottar till din odling."
+#~ msgid "Want to earn more Spare? Add more plots to your farm."
+#~ msgstr "Vill du tjäna mer Spare? Lägg till fler plottar till din odling."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 #~ msgid "Want to have a delay before the next plot starts?"
@@ -2796,8 +2796,8 @@ msgstr "Varning: Denna nyckel används av din pool. Genom att ta bort denna nyck
 #~ msgstr "Vikt är den sammanlagda svårighetsgraden för alla underblock upp till och inklusive detta"
 
 #: src/components/selectKey/SelectKey.tsx:81
-msgid "Welcome to Renameme. Please log in with an existing key, or create a new key."
-msgstr "Välkommen till Renameme. Logga in med en existerande nyckel, eller skapa en ny nyckel."
+msgid "Welcome to Spare. Please log in with an existing key, or create a new key."
+msgstr "Välkommen till Spare. Logga in med en existerande nyckel, eller skapa en ny nyckel."
 
 #: src/components/wallet/WalletAdd.tsx:85
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2871,8 +2871,8 @@ msgstr "Du använder inte självpoolning"
 #~ msgstr "Du måste först begära in dina belöningar"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Renameme application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Renameme application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Spare application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Spare application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 #~ msgid "You need {currencyCode} to join a pool."
@@ -2958,9 +2958,9 @@ msgstr "synkar"
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} blockbelöningar"
 
-#: src/components/farm/card/FarmCardTotalRenamemeFarmed.tsx:29
-#~ msgid "{currencyCode} Total Renameme Farmed"
-#~ msgstr "{currencyCode} Totalt antal Renameme som odlats"
+#: src/components/farm/card/FarmCardTotalSpareFarmed.tsx:29
+#~ msgid "{currencyCode} Total Spare Farmed"
+#~ msgstr "{currencyCode} Totalt antal Spare som odlats"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 #~ msgid "{currencyCode} User Transaction Fees"

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { useGetWalletsQuery } from '@renamemelite/api-react';
+import { useGetWalletsQuery } from '@sparelite/api-react';
 import StandardWallet from './standard/WalletStandard';
 import { CreateWalletView } from './create/WalletCreate';
 import WalletCAT from './cat/WalletCAT';

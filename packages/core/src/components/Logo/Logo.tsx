@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Box, BoxProps } from '@material-ui/core';
-import { Renameme } from '@renamemelite/icons';
+import { Spare } from '@sparelite/icons';
 
-const StyledRenameme = styled(Renameme)`
+const StyledSpare = styled(Spare)`
   max-width: 100%;
   width: auto;
   height: auto;
@@ -12,7 +12,7 @@ const StyledRenameme = styled(Renameme)`
 export default function Logo(props: BoxProps) {
   return (
     <Box {...props}>
-      <StyledRenameme />
+      <StyledSpare />
     </Box>
   );
 }

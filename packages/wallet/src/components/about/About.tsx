@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
-import icon from './renamemelite_circle.svg';
+import icon from './sparelite_circle.svg';
 
 const GlobalStyle = createGlobalStyle`
   body,
@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://renamemenetwork.org';
+const url = 'https://sparenetwork.org';
 
 type Props = {
   version: string;
@@ -114,7 +114,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) 2021 Chia Network, Renameme Network</div>
+        <div className="copyright">Copyright (c) 2021 Chia Network, Spare Network</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (
@@ -144,7 +144,7 @@ export default function About(props: Props) {
         </VersionsTable>
 
         <BugReport
-          href="https://github.com/Renameme-Network/renameme-blockchain/issues"
+          href="https://github.com/Spare-Network/spare-blockchain/issues"
           target="_blank"
         >
           Report an issue

@@ -1,4 +1,4 @@
-import { useGetSyncStatusQuery } from '@renamemelite/api-react';
+import { useGetSyncStatusQuery } from '@sparelite/api-react';
 import SyncingStatus from '../constants/SyncingStatus';
 import getWalletSyncingStatus from '../util/getWalletSyncingStatus';
 

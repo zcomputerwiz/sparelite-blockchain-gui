@@ -9,8 +9,8 @@ import {
   Loading,
   StateColor,
   Table,
-} from '@renamemelite/core';
-import { Status } from '@renamemelite/icons';
+} from '@sparelite/core';
+import { Status } from '@sparelite/icons';
 import { useRouteMatch, useHistory } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { Box, Tooltip, Typography } from '@material-ui/core';

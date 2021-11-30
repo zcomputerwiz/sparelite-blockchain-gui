@@ -9,7 +9,7 @@ import {
   Flex,
   Checkbox,
   TooltipIcon,
-} from '@renamemelite/core';
+} from '@sparelite/core';
 import {
   Grid,
   FormControl,

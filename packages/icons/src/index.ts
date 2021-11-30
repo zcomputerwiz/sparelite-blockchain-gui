@@ -1,4 +1,4 @@
-export { default as Renameme } from './Renameme';
+export { default as Spare } from './Spare';
 export { default as Farm } from './Farm';
 export { default as Home } from './Home';
 export { default as Keys } from './Keys';

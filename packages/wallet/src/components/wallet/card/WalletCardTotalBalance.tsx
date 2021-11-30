@@ -1,6 +1,6 @@
 import React, { useMemo, ReactElement } from 'react';
 import { Trans } from '@lingui/macro';
-import { useGetWalletBalanceQuery } from '@renamemelite/api-react';
+import { useGetWalletBalanceQuery } from '@sparelite/api-react';
 import styled from 'styled-components';
 import WalletGraph from '../WalletGraph';
 import FarmCard from '../../farm/card/FarmCard';

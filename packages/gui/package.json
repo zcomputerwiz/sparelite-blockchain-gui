@@ -1,8 +1,8 @@
 {
-  "name": "@renamemelite/gui",
-  "author": "Renameme Network <hello@renamemenetwork.org> (https://renamemenetwork.org/)",
-  "description": "GUI for Renameme Blockchain",
-  "productName": "Renameme Blockchain",
+  "name": "@sparelite/gui",
+  "author": "Spare Network <hello@sparenetwork.org> (https://sparenetwork.org/)",
+  "description": "GUI for Spare Blockchain",
+  "productName": "Spare Blockchain",
   "private": true,
   "homepage": "./",
   "main": "build/electron/main.js",
@@ -27,10 +27,10 @@
     "lint": "tsc --noEmit && npm run eslint"
   },
   "dependencies": {
-    "@renamemelite/core": "^1.0.0",
-    "@renamemelite/icons": "^1.0.0",
-    "@renamemelite/api": "^1.0.0",
-    "@renamemelite/api-react": "^1.0.0",
+    "@sparelite/core": "^1.0.0",
+    "@sparelite/icons": "^1.0.0",
+    "@sparelite/api": "^1.0.0",
+    "@sparelite/api-react": "^1.0.0",
     "@fontsource/roboto": "^4.5.1",
     "@lingui/core": "^3.12.1",
     "@lingui/macro": "^3.12.1",

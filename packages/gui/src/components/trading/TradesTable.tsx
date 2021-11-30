@@ -1,9 +1,9 @@
 import React, { useMemo, ReactNode } from 'react';
-import { Table } from '@renamemelite/core';
+import { Table } from '@sparelite/core';
 import styled from 'styled-components';
 import { Trans } from '@lingui/macro';
 import { Box } from '@material-ui/core';
-import { mojo_to_renamemelite_string } from '../../util/renamemelite';
+import { mojo_to_sparelite_string } from '../../util/sparelite';
 
 const Amount = styled(Box)`
   white-space: normal;
@@ -46,7 +46,7 @@ export default function TradesTable(props: Props) {
         return {
           side: amount < 0 ? <Trans>Sell</Trans> : <Trans>Buy</Trans>,
           name: <Amount>{name}</Amount>,
-          amount: <Amount>{mojo_to_renamemelite_string(humanAmount)}</Amount>,
+          amount: <Amount>{mojo_to_sparelite_string(humanAmount)}</Amount>,
         };
       }),
     [rows],

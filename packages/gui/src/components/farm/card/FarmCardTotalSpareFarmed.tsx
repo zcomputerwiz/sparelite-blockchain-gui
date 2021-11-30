@@ -3,10 +3,10 @@ import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
 import type { RootState } from '../../../modules/rootReducer';
 import FarmCard from './FarmCard';
-import { mojo_to_renamemelite } from '../../../util/renamemelite';
+import { mojo_to_sparelite } from '../../../util/sparelite';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
 
-export default function FarmCardTotalRenamemeFarmed() {
+export default function FarmCardTotalSpareFarmed() {
   const currencyCode = useCurrencyCode();
 
   const loading = useSelector(
@@ -17,17 +17,17 @@ export default function FarmCardTotalRenamemeFarmed() {
     (state: RootState) => state.wallet_state.farmed_amount?.farmed_amount,
   );
 
-  const totalRenamemeFarmed = useMemo(() => {
+  const totalSpareFarmed = useMemo(() => {
     if (farmedAmount !== undefined) {
       const val = BigInt(farmedAmount.toString());
-      return mojo_to_renamemelite(val);
+      return mojo_to_sparelite(val);
     }
   }, [farmedAmount]);
 
   return (
     <FarmCard
-      title={<Trans>{currencyCode} Total Renameme Farmed</Trans>}
-      value={totalRenamemeFarmed}
+      title={<Trans>{currencyCode} Total Spare Farmed</Trans>}
+      value={totalSpareFarmed}
       loading={loading}
     />
   );

@@ -1,11 +1,11 @@
 enum ServiceName {
-  WALLET = 'renamemelite_wallet',
-  FULL_NODE = 'renamemelite_full_node',
-  FARMER = 'renamemelite_farmer',
-  HARVESTER = 'renamemelite_harvester',
-  SIMULATOR = 'renamemelite_full_node_simulator',
+  WALLET = 'sparelite_wallet',
+  FULL_NODE = 'sparelite_full_node',
+  FARMER = 'sparelite_farmer',
+  HARVESTER = 'sparelite_harvester',
+  SIMULATOR = 'sparelite_full_node_simulator',
   DAEMON = 'daemon',
-  PLOTTER = 'renamemelite plots create',
+  PLOTTER = 'sparelite plots create',
   EVENTS = 'wallet_ui',
 }
 

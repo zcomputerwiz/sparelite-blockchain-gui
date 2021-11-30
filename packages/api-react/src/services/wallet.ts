@@ -1,10 +1,10 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import { Wallet, CAT, WalletType } from '@renamemelite/api';
-import renamemeliteLazyBaseQuery from '../renamemeliteLazyBaseQuery';
+import { Wallet, CAT, WalletType } from '@sparelite/api';
+import spareliteLazyBaseQuery from '../spareliteLazyBaseQuery';
 import type Transaction from '../@types/Transaction';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';
 
-const baseQuery = renamemeliteLazyBaseQuery({
+const baseQuery = spareliteLazyBaseQuery({
   service: Wallet,
 });
 

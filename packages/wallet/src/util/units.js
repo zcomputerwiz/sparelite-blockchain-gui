@@ -1,17 +1,17 @@
 const units = {
-  renamemelite: 1,
+  sparelite: 1,
   mojo: 1 / 1e12,
   colouredcoin: 1 / 1e9,
 };
 
 const aliases = {
-  renamemelite: ['ch', 'renamemelite', 'Renameme'],
+  sparelite: ['ch', 'sparelite', 'Spare'],
   mojo: ['mj', 'mojo'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
 
 const display = {
-  renamemelite: {
+  sparelite: {
     format: '{amount} CH',
     fractionDigits: 12,
   },

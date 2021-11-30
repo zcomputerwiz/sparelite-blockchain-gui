@@ -2,8 +2,8 @@ const units = require('../../util/units');
 
 describe('units', () => {
   describe('#getUnit', () => {
-    it('gets unit of renamemelite', () => {
-      const result = units.getUnit('renamemelite');
+    it('gets unit of sparelite', () => {
+      const result = units.getUnit('sparelite');
 
       expect(result).toBe(1);
     });
@@ -18,11 +18,11 @@ describe('units', () => {
       expect(result).toBe(1e-9);
     });
     it('supports uppercase characters', () => {
-      const result = units.getUnit('RENAMEME');
+      const result = units.getUnit('SPARE');
 
       expect(result).toBe(1);
     });
-    it('gets unit of renamemelite using alias', () => {
+    it('gets unit of sparelite using alias', () => {
       const result = units.getUnit('ch');
 
       expect(result).toBe(1);
@@ -46,8 +46,8 @@ describe('units', () => {
     });
   });
   describe('#getDisplay', () => {
-    it('gets display of renamemelite', () => {
-      const result = units.getDisplay('renamemelite');
+    it('gets display of sparelite', () => {
+      const result = units.getDisplay('sparelite');
 
       expect(result).toEqual({
         format: '{amount} CH',
@@ -87,13 +87,13 @@ describe('units', () => {
       expect(result).toEqual(1);
     });
     it('modifies an existing unit', () => {
-      units.setUnit('renamemelite', 9);
+      units.setUnit('sparelite', 9);
 
-      const result = units.getUnit('renamemelite');
+      const result = units.getUnit('sparelite');
 
       expect(result).toEqual(9);
 
-      units.setUnit('renamemelite', 1);
+      units.setUnit('sparelite', 1);
     });
   });
   describe('#setDisplay', () => {
@@ -111,15 +111,15 @@ describe('units', () => {
       });
     });
     it('updates an existing display', () => {
-      units.setDisplay('renamemelite', {
-        format: '{amount} TXFX',
+      units.setDisplay('sparelite', {
+        format: '{amount} TSPARE',
         fractionDigits: 0,
       });
 
-      const result = units.getDisplay('renamemelite');
+      const result = units.getDisplay('sparelite');
 
       expect(result).toEqual({
-        format: '{amount} TXFX',
+        format: '{amount} TSPARE',
         fractionDigits: 0,
       });
     });

@@ -1,7 +1,7 @@
 import React from 'react';
 import isElectron from 'is-electron';
 import { Trans } from '@lingui/macro';
-import { AlertDialog } from '@renamemelite/core';
+import { AlertDialog } from '@sparelite/core';
 import useOpenDialog from './useOpenDialog';
 
 type Options = {

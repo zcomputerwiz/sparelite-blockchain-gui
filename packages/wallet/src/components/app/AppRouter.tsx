@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { PrivateRoute } from '@renamemelite/core';
+import { PrivateRoute } from '@sparelite/core';
 import SelectKey from '../selectKey/SelectKey';
 import WalletAdd from '../wallet/WalletAdd';
 import WalletImport from '../wallet/WalletImport';

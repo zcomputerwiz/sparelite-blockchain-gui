@@ -12,7 +12,7 @@ import {
   Form,
   FormBackButton,
   State,
-} from '@renamemelite/core';
+} from '@sparelite/core';
 import { useForm } from 'react-hook-form';
 import { ChevronRight as ChevronRightIcon } from '@material-ui/icons';
 import { Grid, Typography } from '@material-ui/core';
@@ -21,7 +21,7 @@ import usePlotNFTs from '../../hooks/usePlotNFTs';
 import { pwAbsorbRewards } from '../../modules/plotNFT';
 import { SubmitData } from './select/PlotNFTSelectPool';
 import PlotNFTName from './PlotNFTName';
-import { mojo_to_renamemelite, renamemelite_to_mojo } from '../../util/renamemelite';
+import { mojo_to_sparelite, sparelite_to_mojo } from '../../util/sparelite';
 import useStandardWallet from '../../hooks/useStandardWallet';
 
 type FormData = {
@@ -64,7 +64,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
 
       const { fee } = data;
 
-      const feeMojos = renamemelite_to_mojo(fee);
+      const feeMojos = sparelite_to_mojo(fee);
 
       if (walletId === undefined || !address) {
         return;
@@ -137,7 +137,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
               <Trans>
                 You will recieve{' '}
                 <UnitFormat
-                  value={mojo_to_renamemelite(BigInt(balance))}
+                  value={mojo_to_sparelite(BigInt(balance))}
                   display="inline"
                   state={State.SUCCESS}
                 />{' '}

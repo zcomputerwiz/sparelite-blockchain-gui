@@ -1,7 +1,7 @@
 import React from 'react';
-import { Logo } from '@renamemelite/core';
+import { Logo } from '@sparelite/core';
 import styled from 'styled-components';
-import { useGetCatListQuery } from '@renamemelite/api-react';
+import { useGetCatListQuery } from '@sparelite/api-react';
 import Wallet from '../../types/Wallet';
 import WalletType from '../../constants/WalletType';
 import { Typography } from '@material-ui/core';

@@ -1,8 +1,8 @@
 {
-  "name": "@renamemelite/icons",
-  "author": "Renameme Network <hello@renamemenetwork.org> (https://renamemenetwork.org/)",
-  "description": "Renameme Icons Library",
-  "productName": "Renameme Blockchain",
+  "name": "@sparelite/icons",
+  "author": "Spare Network <hello@sparenetwork.org> (https://sparenetwork.org/)",
+  "description": "Spare Icons Library",
+  "productName": "Spare Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {

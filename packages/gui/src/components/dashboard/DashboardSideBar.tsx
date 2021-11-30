@@ -10,8 +10,8 @@ import {
   Home as HomeIcon,
   Plot as PlotIcon,
   Pool as PoolIcon,
-} from '@renamemelite/icons';
-import { Flex, SideBarItem } from '@renamemelite/core';
+} from '@sparelite/icons';
+import { Flex, SideBarItem } from '@sparelite/core';
 import { logOut } from '../../modules/message';
 
 const StyledRoot = styled(Flex)`

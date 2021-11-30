@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: zh_CN\n"
-"Project-Id-Version: renamemelite-blockchain\n"
+"Project-Id-Version: sparelite-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:39\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: renamemelite-blockchain\n"
+"X-Crowdin-Project: sparelite-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[Renameme-Network.renamemelite-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Spare-Network.sparelite-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgstr ""
 #~ msgstr "（可选）"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-#~ msgid "*Want to explore Renameme’s blocks further? Check out <0>Renameme Explorer</0> built by an open source developer."
-#~ msgstr "* 想要进一步了解Renameme？来看看一位开源开发者创建的 <0>Renameme区块浏览器</0>。"
+#~ msgid "*Want to explore Spare’s blocks further? Check out <0>Spare Explorer</0> built by an open source developer."
+#~ msgstr "* 想要进一步了解Spare？来看看一位开源开发者创建的 <0>Spare区块浏览器</0>。"
 
 #: src/components/wallet/WalletHistory.tsx:111
 msgid "+"
@@ -60,12 +60,12 @@ msgstr ""
 
 #: src/electron/main.tsx:423
 #: src/electron/main.tsx:510
-#~ msgid "About Renameme Blockchain"
-#~ msgstr "关于RenamemeRenameme区块链项目"
+#~ msgid "About Spare Blockchain"
+#~ msgstr "关于SpareSpare区块链项目"
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Renameme Wallet"
+msgid "About Spare Wallet"
 msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -281,8 +281,8 @@ msgstr "余额"
 #~ msgstr "区块可验证延迟函数迭代"
 
 #: src/components/block/Block.jsx:337
-#~ msgid "Block at height {0} in the Renameme blockchain"
-#~ msgstr "Renameme区块链上高度为 {0} 的区块"
+#~ msgid "Block at height {0} in the Spare blockchain"
+#~ msgstr "Spare区块链上高度为 {0} 的区块"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -347,7 +347,7 @@ msgstr "取消"
 
 #: src/components/wallet/WalletSend.tsx:99
 #: src/components/wallet/cat/WalletCATSend.tsx:117
-msgid "Cannot send renamemelite to coloured address. Please enter a renamemelite address."
+msgid "Cannot send sparelite to coloured address. Please enter a sparelite address."
 msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:39
@@ -377,21 +377,21 @@ msgid "Chat on Discord"
 msgstr "在Discord上参与讨论"
 
 #: src/electron/main.tsx:419
-msgid "Renameme"
-msgstr "Renameme"
+msgid "Spare"
+msgstr "Spare"
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:25
 #: src/components/wallet/create/WalletCreateList.tsx:32
-msgid "Renameme Asset Token"
+msgid "Spare Asset Token"
 msgstr ""
 
 #: src/electron/main.tsx:358
-msgid "Renameme Blockchain Wiki"
-msgstr "Renameme区块链项目维基"
+msgid "Spare Blockchain Wiki"
+msgstr "Spare区块链项目维基"
 
 #: src/components/wallet/standard/WalletStandard.tsx:23
-msgid "Renameme Wallet"
-msgstr "Renameme钱包"
+msgid "Spare Wallet"
+msgstr "Spare钱包"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 #~ msgid "Choose Number of Plots"
@@ -556,11 +556,11 @@ msgid "Create An Attestation Packet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:65
-#~ msgid "Create Renameme Asset Token Wallet"
+#~ msgid "Create Spare Asset Token Wallet"
 #~ msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:77
-msgid "Create Renameme Asset Token Wallet from Existing TAIL"
+msgid "Create Spare Asset Token Wallet from Existing TAIL"
 msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:290
@@ -572,7 +572,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr "创建分布式身份钱包"
 
 #: src/components/wallet/cat/WalletCATCreateNew.tsx:77
-msgid "Create New Renameme Asset Token Wallet"
+msgid "Create New Spare Asset Token Wallet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:32
@@ -834,8 +834,8 @@ msgstr "编辑"
 #~ msgstr "编辑支付指令"
 
 #: src/components/wallet/WalletImport.tsx:94
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Renameme wallet."
-msgstr "请输入你保存的24个助记词来恢复Renameme钱包"
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Spare wallet."
+msgstr "请输入你保存的24个助记词来恢复Spare钱包"
 
 #: src/components/farm/card/FarmCard.tsx:57
 msgid "Error"
@@ -846,8 +846,8 @@ msgid "Error the entered address appears to be for a different colour."
 msgstr ""
 
 #: src/components/wallet/WalletSend.tsx:289
-#~ msgid "Error: Cannot send renamemelite to coloured address. Please enter a renamemelite address."
-#~ msgstr "错误：无法发送Renameme到染色地址。请输入Renameme钱包地址。"
+#~ msgid "Error: Cannot send sparelite to coloured address. Please enter a sparelite address."
+#~ msgstr "错误：无法发送Spare到染色地址。请输入Spare钱包地址。"
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 #~ msgid "Estimated Network Space"
@@ -952,7 +952,7 @@ msgid "Fee"
 msgstr "费用"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXFX)"
+#~ msgid "Fee (TSPARE)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1154,16 +1154,16 @@ msgstr "间隔"
 #~ msgstr "加入农业合作社"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-#~ msgid "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile."
-#~ msgstr "加入农业合作社来获得持续的XFX耕种收益。平均回报是相同的，但是收益会更加稳定。"
+#~ msgid "Join a pool and get consistent SPARE farming rewards. The average returns are the same, but it is much less volatile."
+#~ msgstr "加入农业合作社来获得持续的SPARE耕种收益。平均回报是相同的，但是收益会更加稳定。"
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-#~ msgid "Join a pool and get consistent XFX farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-#~ msgstr "加入农业合作社来获得持续的XFX耕种收益。平均回报是相同的，但是收益会更加稳定。为已开垦的农田分配农田NFT。你可以轻松切换耕种池，而不比重新开垦现有农田。"
+#~ msgid "Join a pool and get consistent SPARE farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+#~ msgstr "加入农业合作社来获得持续的SPARE耕种收益。平均回报是相同的，但是收益会更加稳定。为已开垦的农田分配农田NFT。你可以轻松切换耕种池，而不比重新开垦现有农田。"
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-#~ msgid "Join a pool and get more consistent XFX farming rewards. Create a plot NFT and assign your new plots to a group."
-#~ msgstr "加入农业合作社来获得持续的XFX耕种收益。创建一个农田NFT，然后将新农田分配到组。"
+#~ msgid "Join a pool and get more consistent SPARE farming rewards. Create a plot NFT and assign your new plots to a group."
+#~ msgstr "加入农业合作社来获得持续的SPARE耕种收益。创建一个农田NFT，然后将新农田分配到组。"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 #~ msgid "K-Size"
@@ -1429,8 +1429,8 @@ msgstr "未同步"
 #~ msgstr "未找到农田"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
-#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XFX reward for pooling plots."
-#~ msgstr "请注意，这将不会改变你的合作社耕作支付地址。这只会影响旧农田文件，以及0.25XFX的合作社耕作奖励。"
+#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25SPARE reward for pooling plots."
+#~ msgstr "请注意，这将不会改变你的合作社耕作支付地址。这只会影响旧农田文件，以及0.25SPARE的合作社耕作奖励。"
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
 #: src/components/plotNFT/PlotNFTCard.tsx:160
@@ -1706,8 +1706,8 @@ msgstr "请等待钱包同步"
 #~ msgstr "通过初筛的农田"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Renameme. <0>Learn more</0>"
-#~ msgstr "农田就是在你的硬盘上分配的一块空间，用来收获Renameme。<0>了解更多</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Spare. <0>Learn more</0>"
+#~ msgstr "农田就是在你的硬盘上分配的一块空间，用来收获Spare。<0>了解更多</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 #~ msgid "Plotting"
@@ -2118,8 +2118,8 @@ msgstr "选择恢复文件："
 #~ msgstr "自耕种"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-#~ msgid "Self pool. When you win a block you will earn XFX rewards."
-#~ msgstr "自耕种。一旦发现新区块，你将得到全部XFX区块奖励。"
+#~ msgid "Self pool. When you win a block you will earn SPARE rewards."
+#~ msgstr "自耕种。一旦发现新区块，你将得到全部SPARE区块奖励。"
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -2179,8 +2179,8 @@ msgstr "登录"
 #~ msgstr "勾选此项，将不会自动把最终目录添加到收割机进行耕种"
 
 #: src/components/pool/PoolHero.tsx:26
-#~ msgid "Smooth out your XFX farming rewards by joining a pool."
-#~ msgstr "加入农业合作社来稳定XFX耕作收益。"
+#~ msgid "Smooth out your SPARE farming rewards by joining a pool."
+#~ msgstr "加入农业合作社来稳定SPARE耕作收益。"
 
 #: src/modules/message.js:568
 #: src/modules/message.js:583
@@ -2216,8 +2216,8 @@ msgstr "支出迭代长度(区块数)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (renamemelite per interval): {0}"
-msgstr "消费限额（单位时间可消费的Renameme）：{0}"
+msgid "Spending Limit (sparelite per interval): {0}"
+msgstr "消费限额（单位时间可消费的Spare）：{0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -2264,8 +2264,8 @@ msgstr "状态："
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Renameme blockchain"
-#~ msgstr "Sub Block at height {0} in the Renameme blockchain"
+#~ msgid "Sub Block at height {0} in the Spare blockchain"
+#~ msgstr "Sub Block at height {0} in the Spare blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2294,23 +2294,23 @@ msgstr "正在同步"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXFX Block Rewards"
+#~ msgid "TSPARE Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXFX Farming Rewards"
+#~ msgid "TSPARE Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXFX Fees Collected"
+#~ msgid "TSPARE Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXFX User Fees"
-#~ msgstr "TXFX User Fees"
+#~ msgid "TSPARE User Fees"
+#~ msgstr "TSPARE User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXFX User Transaction Fees"
+#~ msgid "TSPARE User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2392,8 +2392,8 @@ msgstr "农业合作社地址需要使用 https 协议。{normalizedUrl}"
 #~ msgstr "本区块上奖励给农民的全部交易费用。"
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
-#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XFX address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-#~ msgstr "这是农民耕种奖励的支付方式。默认情况下，这将是一个XFX钱包地址，但是你可以设置任意长度小于1024的字符串，也就是说，你可以指定其它区块链或者支付系统标识。"
+#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an SPARE address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgstr "这是农民耕种奖励的支付方式。默认情况下，这将是一个SPARE钱包地址，但是你可以设置任意长度小于1024的字符串，也就是说，你可以指定其它区块链或者支付系统标识。"
 
 #: src/components/plot/PlotsFailed.tsx:40
 #~ msgid "These plots are invalid, you might want to delete them."
@@ -2422,8 +2422,8 @@ msgid "This feature is available only from the GUI."
 msgstr "此功能只在图形界面中提供。"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Renameme that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Renameme that you have just spent but is not yet in the blockchain."
-msgstr "这是你目前可以交易的Renameme数额。该数额不包含处理中的农场奖励、收入交易，以及未经区块链确认的支付交易。"
+msgid "This is the amount of Spare that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Spare that you have just spent but is not yet in the blockchain."
+msgstr "这是你目前可以交易的Spare数额。该数额不包含处理中的农场奖励、收入交易，以及未经区块链确认的支付交易。"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:44
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2442,8 +2442,8 @@ msgstr "待处理的收入与支出总和(还未上链). 不包括农场耕种�
 #~ msgstr "此时间是该区块被农民创建的时间，因此，此时间会早于其被时间认证机制最终确认的时间。"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of renamemelite in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "这里是你的私钥所控制的, 到目前最新子块高度为止的全部Renameme数. 包含被冻结的耕种奖励, 但不包含待处理的收入与支出."
+msgid "This is the total amount of sparelite in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "这里是你的私钥所控制的, 到目前最新子块高度为止的全部Spare数. 包含被冻结的耕种奖励, 但不包含待处理的收入与支出."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:31
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2488,8 +2488,8 @@ msgstr "目前结余+待处理的结余: 在链上确认完成后就是你的最
 #~ msgstr "该交易在链上的区块高度"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Renameme is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "此版本的Renameme客户端与区块链已经不再兼容，无法安全地种植。"
+#~ msgid "This version of Spare is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "此版本的Spare客户端与区块链已经不再兼容，无法安全地种植。"
 
 #: src/components/fullNode/FullNode.jsx:92
 #~ msgid "Time Created"
@@ -2525,8 +2525,8 @@ msgstr ""
 msgid "Total Balance"
 msgstr "总余额"
 
-#: src/components/farm/card/FarmCardTotalRenamemeFarmed.tsx:15
-#~ msgid "Total Renameme Farmed"
+#: src/components/farm/card/FarmCardTotalSpareFarmed.tsx:15
+#~ msgid "Total Spare Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2732,7 +2732,7 @@ msgstr "钱包不存在"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.renamemeliteWallet"
+#~ msgid "WalletItem.spareliteWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2768,8 +2768,8 @@ msgstr "钱包"
 #~ msgstr "想要加入农业合作社？创建一个农田NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Renameme? Add more plots to your farm."
-#~ msgstr "想要获得更多Renameme？ 给你的农场多开垦一些农田吧。"
+#~ msgid "Want to earn more Spare? Add more plots to your farm."
+#~ msgstr "想要获得更多Spare？ 给你的农场多开垦一些农田吧。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 #~ msgid "Want to have a delay before the next plot starts?"
@@ -2796,12 +2796,12 @@ msgstr "警告：此密钥用于池奖励地址。删除此密钥可能会无法
 #~ msgstr "权重是施加给所有子块包括目前这块的额外的困难度."
 
 #: src/components/selectKey/SelectKey.tsx:81
-msgid "Welcome to Renameme. Please log in with an existing key, or create a new key."
-msgstr "欢迎来到Renameme。请用已有的密钥登录，或者创建一个新的密钥。"
+msgid "Welcome to Spare. Please log in with an existing key, or create a new key."
+msgstr "欢迎来到Spare。请用已有的密钥登录，或者创建一个新的密钥。"
 
 #: src/components/wallet/WalletAdd.tsx:85
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
-msgstr "欢迎使用Renameme! 下面的词语列表是你的钱包密语, 请务必严格完整的把它们记下来(保持顺序). 没有这段密语的话, 你就没办法找回钱包里的币. 千万也不要透露给别人."
+msgstr "欢迎使用Spare! 下面的词语列表是你的钱包密语, 请务必严格完整的把它们记下来(保持顺序). 没有这段密语的话, 你就没办法找回钱包里的币. 千万也不要透露给别人."
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:316
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
@@ -2869,8 +2869,8 @@ msgstr "你目前没有自耕种"
 #~ msgstr "你需要先领取你的奖励。"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Renameme application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Renameme application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Spare application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Spare application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 #~ msgid "You need {currencyCode} to join a pool."
@@ -2956,9 +2956,9 @@ msgstr "同步中"
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} 区块奖励"
 
-#: src/components/farm/card/FarmCardTotalRenamemeFarmed.tsx:29
-#~ msgid "{currencyCode} Total Renameme Farmed"
-#~ msgstr "{currencyCode} 收获的Renameme总计"
+#: src/components/farm/card/FarmCardTotalSpareFarmed.tsx:29
+#~ msgid "{currencyCode} Total Spare Farmed"
+#~ msgstr "{currencyCode} 收获的Spare总计"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 #~ msgid "{currencyCode} User Transaction Fees"

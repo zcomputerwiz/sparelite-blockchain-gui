@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, Loading } from '@renamemelite/core';
-import { useGetPrivateKeyQuery } from '@renamemelite/api-react';
+import { AlertDialog, Loading } from '@sparelite/core';
+import { useGetPrivateKeyQuery } from '@sparelite/api-react';
 import { Grid, Typography } from '@material-ui/core';
 import styled from 'styled-components';
 

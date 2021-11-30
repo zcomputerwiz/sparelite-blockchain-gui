@@ -4,10 +4,10 @@ import { ResponsiveLine } from '@nivo/line';
 import { orderBy, groupBy, sumBy, map } from 'lodash';
 import { /* Typography, */ Paper } from '@material-ui/core';
 import styled from 'styled-components';
-import { useGetWalletBalanceQuery } from '@renamemelite/api-react';
+import { useGetWalletBalanceQuery } from '@sparelite/api-react';
 import TransactionType from '../../constants/TransactionType';
 import type Transaction from '../../types/Transaction';
-import { mojo_to_renamemelite } from '../../util/renamemelite';
+import { mojo_to_sparelite } from '../../util/sparelite';
 import blockHeightToTimestamp from '../../util/blockHeightToTimestamp';
 import useWalletTransactions from '../../hooks/useWalletTransactions';
 
@@ -197,8 +197,8 @@ function prepareGraphPoints(
   const points = [
     {
       x: peakTransaction.confirmedAtHeight,
-      y: Math.max(0, mojo_to_renamemelite(start)),
-      tooltip: mojo_to_renamemelite(balance),
+      y: Math.max(0, mojo_to_sparelite(start)),
+      tooltip: mojo_to_sparelite(balance),
     },
   ];
 
@@ -209,8 +209,8 @@ function prepareGraphPoints(
 
     points.push({
       x: timestamp,
-      y: Math.max(0, mojo_to_renamemelite(start)),
-      tooltip: mojo_to_renamemelite(start),
+      y: Math.max(0, mojo_to_sparelite(start)),
+      tooltip: mojo_to_sparelite(start),
     });
   });
 

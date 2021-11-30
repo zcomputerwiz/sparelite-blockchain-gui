@@ -1,5 +1,5 @@
-import Big from 'big.js';
-import units from './units';
+const Big = require('big.js');
+const units = require('./units');
 
 // TODO: use bigint instead of float
 const convert = (amount, from, to) => {
@@ -12,7 +12,7 @@ const convert = (amount, from, to) => {
   return Number.parseFloat(amountInFromUnit.div(units.getUnit(to)));
 };
 
-class Renameme {
+class Spare {
   constructor(value, unit) {
     this._value = value;
     this._unit = unit;
@@ -73,42 +73,42 @@ class Renameme {
   }
 }
 
-export const renamemelite_formatter = (value, unit) => new Renameme(value, unit);
+export const sparelite_formatter = (value, unit) => new Spare(value, unit);
 
-renamemelite_formatter.convert = convert;
-renamemelite_formatter.setDisplay = units.setDisplay;
-renamemelite_formatter.setUnit = units.setUnit;
-renamemelite_formatter.getUnit = units.getUnit;
-renamemelite_formatter.setFiat = (currency, rate, display = null) => {
+sparelite_formatter.convert = convert;
+sparelite_formatter.setDisplay = units.setDisplay;
+sparelite_formatter.setUnit = units.setUnit;
+sparelite_formatter.getUnit = units.getUnit;
+sparelite_formatter.setFiat = (currency, rate, display = null) => {
   units.setUnit(currency, 1 / rate, display);
 };
 
-export const mojo_to_renamemelite = (mojo) => {
-  return renamemelite_formatter(Number.parseInt(mojo), 'mojo').to('renamemelite').value();
+export const mojo_to_sparelite = (mojo) => {
+  return sparelite_formatter(Number.parseInt(mojo), 'mojo').to('sparelite').value();
 };
 
-export const renamemelite_to_mojo = (renamemelite) => {
-  return renamemelite_formatter(Number.parseFloat(Number(renamemelite)), 'renamemelite')
+export const sparelite_to_mojo = (sparelite) => {
+  return sparelite_formatter(Number.parseFloat(Number(sparelite)), 'sparelite')
     .to('mojo')
     .value();
 };
 
-export const mojo_to_renamemelite_string = (mojo) => {
-  return renamemelite_formatter(Number(mojo), 'mojo').to('renamemelite').toString();
+export const mojo_to_sparelite_string = (mojo) => {
+  return sparelite_formatter(Number(mojo), 'mojo').to('sparelite').toString();
 };
 
 export const mojo_to_colouredcoin = (mojo) => {
-  return renamemelite_formatter(Number.parseInt(mojo), 'mojo')
+  return sparelite_formatter(Number.parseInt(mojo), 'mojo')
     .to('colouredcoin')
     .value();
 };
 
 export const colouredcoin_to_mojo = (colouredcoin) => {
-  return renamemelite_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
+  return sparelite_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
     .to('mojo')
     .value();
 };
 
 export const mojo_to_colouredcoin_string = (mojo) => {
-  return renamemelite_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
+  return sparelite_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
 };
