@@ -20,7 +20,7 @@ import {
 import isNumeric from 'validator/es/lib/isNumeric';
 import { useForm, useWatch } from 'react-hook-form';
 import { Button, Grid } from '@material-ui/core';
-import { sparelite_to_graviton, colouredcoin_to_graviton } from '../../../util/sparelite';
+import { spare_to_graviton, colouredcoin_to_graviton } from '../../../util/sparelite';
 import getTransactionResult from '../../../util/getTransactionResult';
 import config from '../../../config/config';
 import useWallet from '../../../hooks/useWallet';
@@ -136,7 +136,7 @@ export default function WalletCATSend(props: Props) {
     }
 
     const amountValue = Number.parseFloat(colouredcoin_to_graviton(amount));
-    const feeValue = Number.parseFloat(sparelite_to_graviton(fee));
+    const feeValue = Number.parseFloat(spare_to_graviton(fee));
 
     const memo = data.memo.trim();
     const memos = memo ? [memo] : undefined;

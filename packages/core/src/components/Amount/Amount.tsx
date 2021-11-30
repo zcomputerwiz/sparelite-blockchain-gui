@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core';
 import { useWatch, useFormContext } from 'react-hook-form';
 import TextField, { TextFieldProps } from '../TextField';
-import { sparelite_to_graviton } from '../../utils/sparelite';
+import { spare_to_graviton } from '../../utils/sparelite';
 import useCurrencyCode from '../../hooks/useCurrencyCode';
 import FormatLargeNumber from '../FormatLargeNumber';
 import Flex from '../Flex';
@@ -54,7 +54,7 @@ export default function Amount(props: AmountProps) {
     name,
   });
 
-  const graviton = sparelite_to_graviton(value);
+  const graviton = spare_to_graviton(value);
 
   return (
     <FormControl variant={variant} fullWidth={fullWidth}>

@@ -22,7 +22,7 @@ import {
   Button,
   Grid,
 } from '@material-ui/core';
-import { sparelite_to_graviton } from '../../util/sparelite';
+import { spare_to_graviton } from '../../util/sparelite';
 import config from '../../config/config';
 import useWallet from '../../hooks/useWallet';
 import getTransactionResult from '../../util/getTransactionResult';
@@ -109,8 +109,8 @@ export default function WalletSend(props: SendCardProps) {
     const response = await sendTransaction({
       walletId,
       address,
-      amount: Number.parseFloat(sparelite_to_graviton(amount)),
-      fee: Number.parseFloat(sparelite_to_graviton(fee)),
+      amount: Number.parseFloat(spare_to_graviton(amount)),
+      fee: Number.parseFloat(spare_to_graviton(fee)),
       waitForConfirmation: true,
     }).unwrap();
 

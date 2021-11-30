@@ -18,7 +18,7 @@ import {
   send_transaction,
   rl_set_user_info_action,
 } from '../../../modules/message';
-import { graviton_to_sparelite_string, sparelite_to_graviton } from '../../../util/sparelite';
+import { graviton_to_sparelite_string, spare_to_graviton } from '../../../util/sparelite';
 import { get_transaction_result } from '../../../util/transaction_result';
 import { openDialog } from '../../../modules/dialog';
 import WalletHistory from '../WalletHistory';
@@ -652,8 +652,8 @@ const SendCard = (props) => {
       );
       return;
     }
-    const amount = sparelite_to_graviton(amount_input.value);
-    const fee = sparelite_to_graviton(fee_input.value);
+    const amount = spare_to_graviton(amount_input.value);
+    const fee = spare_to_graviton(fee_input.value);
 
     if (address.startsWith('0x') || address.startsWith('0X')) {
       address = address.slice(2);

@@ -22,12 +22,12 @@ describe('sparelite', () => {
     expect(result).toBe('0.000001');
   });
   it('converts number sparelite to graviton', () => {
-    const result = sparelite.sparelite_to_graviton(0.000001);
+    const result = sparelite.spare_to_graviton(0.000001);
 
     expect(result).toBe(1000000);
   });
   it('converts string sparelite to graviton', () => {
-    const result = sparelite.sparelite_to_graviton('0.000001');
+    const result = sparelite.spare_to_graviton('0.000001');
 
     expect(result).toBe(1000000);
   });

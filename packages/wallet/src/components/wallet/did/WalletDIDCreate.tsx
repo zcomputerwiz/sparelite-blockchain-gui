@@ -13,7 +13,7 @@ import {
 } from '../../../modules/createWallet';
 import { useDispatch } from 'react-redux';
 import { create_did_action } from '../../../modules/message';
-import { sparelite_to_graviton } from '../../../util/sparelite';
+import { spare_to_graviton } from '../../../util/sparelite';
 import { openDialog } from '../../../modules/dialog';
 import { useForm, Controller, useFieldArray } from 'react-hook-form';
 import { Help as HelpIcon } from '@material-ui/icons';
@@ -37,7 +37,7 @@ export default function WalletDIDCreate() {
       const didArray = data.backup_dids?.map((item) => item.backupid) ?? [];
       let uniqDidArray = Array.from(new Set(didArray));
       uniqDidArray = uniqDidArray.filter(item => item !== "")
-      const amount_val = sparelite_to_graviton(data.amount);
+      const amount_val = spare_to_graviton(data.amount);
       if (
         amount_val === '' ||
         Number(amount_val) === 0 ||

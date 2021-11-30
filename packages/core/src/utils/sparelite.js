@@ -87,7 +87,7 @@ export const graviton_to_sparelite = (graviton) => {
   return sparelite_formatter(Number.parseInt(graviton), 'graviton').to('sparelite').value();
 };
 
-export const sparelite_to_graviton = (sparelite) => {
+export const spare_to_graviton = (sparelite) => {
   return sparelite_formatter(Number.parseFloat(Number(sparelite)), 'sparelite')
     .to('graviton')
     .value();

@@ -21,7 +21,7 @@ import usePlotNFTs from '../../hooks/usePlotNFTs';
 import { pwAbsorbRewards } from '../../modules/plotNFT';
 import { SubmitData } from './select/PlotNFTSelectPool';
 import PlotNFTName from './PlotNFTName';
-import { graviton_to_sparelite, sparelite_to_graviton } from '../../util/sparelite';
+import { graviton_to_sparelite, spare_to_graviton } from '../../util/sparelite';
 import useStandardWallet from '../../hooks/useStandardWallet';
 
 type FormData = {
@@ -64,7 +64,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
 
       const { fee } = data;
 
-      const feeGravitons = sparelite_to_graviton(fee);
+      const feeGravitons = spare_to_graviton(fee);
 
       if (walletId === undefined || !address) {
         return;

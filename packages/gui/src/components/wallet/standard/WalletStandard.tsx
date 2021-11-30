@@ -42,7 +42,7 @@ import {
   send_transaction,
   farm_block,
 } from '../../../modules/message';
-import { /* graviton_to_sparelite_string, */ sparelite_to_graviton } from '../../../util/sparelite';
+import { /* graviton_to_sparelite_string, */ spare_to_graviton } from '../../../util/sparelite';
 import { openDialog } from '../../../modules/dialog';
 import { get_transaction_result } from '../../../util/transaction_result';
 import config from '../../../config/config';
@@ -470,8 +470,8 @@ function SendCard(props: SendCardProps) {
       address = address.slice(2);
     }
 
-    const amountValue = Number.parseFloat(sparelite_to_graviton(amount));
-    const feeValue = Number.parseFloat(sparelite_to_graviton(fee));
+    const amountValue = Number.parseFloat(spare_to_graviton(amount));
+    const feeValue = Number.parseFloat(spare_to_graviton(fee));
 
     dispatch(send_transaction(wallet_id, amountValue, feeValue, address));
 

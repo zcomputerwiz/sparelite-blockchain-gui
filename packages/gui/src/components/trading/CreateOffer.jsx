@@ -15,7 +15,7 @@ import {
 import { AlertDialog, Card, Flex } from '@sparelite/core';
 import isElectron from 'is-electron';
 import { newBuy, newSell, addTrade, resetTrades } from '../../modules/trade';
-import { sparelite_to_graviton, colouredcoin_to_graviton } from '../../util/sparelite';
+import { spare_to_graviton, colouredcoin_to_graviton } from '../../util/sparelite';
 import { openDialog } from '../../modules/dialog';
 import { create_trade_action } from '../../modules/trade_messages';
 import { COLOURED_COIN } from '../../util/wallet_types';
@@ -82,7 +82,7 @@ export default function CreateOffer() {
     const graviton =
       wallets[wallet_id.value].type === COLOURED_COIN
         ? colouredcoin_to_graviton(amount_input.value)
-        : sparelite_to_graviton(amount_input.value);
+        : spare_to_graviton(amount_input.value);
 
     const trade =
       buy_or_sell.value === 1

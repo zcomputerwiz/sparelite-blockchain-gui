@@ -4,7 +4,7 @@ import { AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from 
 import { Box, Grid } from '@material-ui/core';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router';
-import { sparelite_to_graviton } from '../../../util/sparelite';
+import { spare_to_graviton } from '../../../util/sparelite';
 
 type CreateCATWalletData = {
   amount: string;
@@ -55,8 +55,8 @@ export default function WalletCATCreateNew() {
       }
       */
 
-      const amountGravitons = sparelite_to_graviton(amount || '0');
-      const feeGravitons = sparelite_to_graviton(fee || '0');
+      const amountGravitons = spare_to_graviton(amount || '0');
+      const feeGravitons = spare_to_graviton(fee || '0');
 
 
       /*
