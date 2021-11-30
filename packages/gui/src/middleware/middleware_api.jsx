@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog } from '@flaxlight/core';
+import { AlertDialog } from '@renamemelite/core';
 import styled from 'styled-components';
 import { Grid, Typography } from '@material-ui/core';
 import {

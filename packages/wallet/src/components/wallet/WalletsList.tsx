@@ -3,8 +3,8 @@ import { Trans } from '@lingui/macro';
 import {
   Grid, Typography,
 } from '@material-ui/core';
-import { useGetWalletsQuery } from '@flaxlight/api-react';
-import { Flex, Loading } from '@flaxlight/core';
+import { useGetWalletsQuery } from '@renamemelite/api-react';
+import { Flex, Loading } from '@renamemelite/core';
 import { useHistory } from 'react-router';
 import { Eco as HomeWorkIcon, Add as AddIcon } from '@material-ui/icons';
 import Wallet from '../../types/Wallet';

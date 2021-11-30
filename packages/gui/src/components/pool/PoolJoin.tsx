@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router';
 import { Trans } from '@lingui/macro';
-import { AlertDialog } from '@flaxlight/core';
+import { AlertDialog } from '@renamemelite/core';
 import type PlotNFT from '../../types/PlotNFT';
 import usePlotNFTDetails from '../../hooks/usePlotNFTDetails';
 import useOpenDialog from '../../hooks/useOpenDialog';

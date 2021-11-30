@@ -1,17 +1,17 @@
 const units = {
-  flaxlight: 1,
+  renamemelite: 1,
   mojo: 1 / 1e12,
   colouredcoin: 1 / 1e9,
 };
 
 const aliases = {
-  flaxlight: ['ch', 'flaxlight', 'Flax'],
+  renamemelite: ['ch', 'renamemelite', 'Renameme'],
   mojo: ['mj', 'mojo'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
 
 const display = {
-  flaxlight: {
+  renamemelite: {
     format: '{amount} CH',
     fractionDigits: 12,
   },

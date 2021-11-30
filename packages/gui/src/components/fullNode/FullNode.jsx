@@ -9,8 +9,8 @@ import {
   Loading,
   StateColor,
   Table,
-} from '@flaxlight/core';
-import { Status } from '@flaxlight/icons';
+} from '@renamemelite/core';
+import { Status } from '@renamemelite/icons';
 import { useRouteMatch, useHistory } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { Box, Tooltip, Typography } from '@material-ui/core';

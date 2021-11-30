@@ -1,9 +1,9 @@
 import React, { useState, useEffect, ReactNode } from 'react';
 import isElectron from 'is-electron';
 import { Trans } from '@lingui/macro';
-import { ConnectionState } from '@flaxlight/api';
-import { useCloseMutation, useGetStateQuery } from '@flaxlight/api-react';
-import { Flex, Loading } from '@flaxlight/core';
+import { ConnectionState } from '@renamemelite/api';
+import { useCloseMutation, useGetStateQuery } from '@renamemelite/api-react';
+import { Flex, Loading } from '@renamemelite/core';
 import LayoutHero from '../layout/LayoutHero';
 import { Typography } from '@material-ui/core';
 import ServiceHumanName from '../../constants/ServiceHumanName';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { CopyToClipboard, Card, Loading } from '@flaxlight/core';
-import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@flaxlight/api-react';
+import { CopyToClipboard, Card, Loading } from '@renamemelite/core';
+import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@renamemelite/api-react';
 import {
   Box,
   Button,

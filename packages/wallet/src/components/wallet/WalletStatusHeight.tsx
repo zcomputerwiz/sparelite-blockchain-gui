@@ -1,6 +1,6 @@
 import React from 'react';
-import { FormatLargeNumber } from '@flaxlight/core';
-import { useGetHeightInfoQuery } from '@flaxlight/api-react';
+import { FormatLargeNumber } from '@renamemelite/core';
+import { useGetHeightInfoQuery } from '@renamemelite/api-react';
 
 export default function WalletStatusHeight() {
   const { data: height, isLoading } = useGetHeightInfoQuery();

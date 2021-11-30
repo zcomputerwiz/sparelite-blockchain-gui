@@ -1,3 +1,3 @@
-# flax-blockchain
+# renameme-blockchain
 
-This is the GUI for flax-blockchain. It is built into distribution packages in the flax-blockchain repository.
+This is the GUI for renameme-blockchain. It is built into distribution packages in the renameme-blockchain repository.

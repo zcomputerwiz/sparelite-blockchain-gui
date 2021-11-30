@@ -9,7 +9,7 @@ import {
   Flex,
   Checkbox,
   TooltipIcon,
-} from '@flaxlight/core';
+} from '@renamemelite/core';
 import {
   Grid,
   FormControl,

@@ -1,4 +1,4 @@
-import { ServiceName } from '@flaxlight/api';
+import { ServiceName } from '@renamemelite/api';
 
 const ServiceHumanName = {
   [ServiceName.WALLET]: 'Wallet',

@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { useGetWalletsQuery, useGetCatListQuery } from '@flaxlight/api-react';
+import { useGetWalletsQuery, useGetCatListQuery } from '@renamemelite/api-react';
 import Wallet from '../types/Wallet';
 import WalletType from '../constants/WalletType';
 import useCurrencyCode from './useCurrencyCode';

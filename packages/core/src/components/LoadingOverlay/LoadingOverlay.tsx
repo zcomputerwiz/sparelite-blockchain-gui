@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import styled from 'styled-components';
-import { Loading } from '@flaxlight/core';
+import { Loading } from '@renamemelite/core';
 
 const StyledRoot = styled.div`
   position: relative;

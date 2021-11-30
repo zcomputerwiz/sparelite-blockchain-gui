@@ -1,5 +1,5 @@
 import { BaseQueryFn } from '@reduxjs/toolkit/query/react';
-import Client, { Service } from '@flaxlight/api';
+import Client, { Service } from '@renamemelite/api';
 import { BaseQueryApi } from '@reduxjs/toolkit/dist/query/baseQueryTypes';
 import { selectApiConfig } from './slices/api';
 
@@ -33,7 +33,7 @@ type Options = {
   service?: Service;
 };
 
-export default function flaxlightLazyBaseQuery(options: Options = {}): BaseQueryFn<
+export default function renamemeliteLazyBaseQuery(options: Options = {}): BaseQueryFn<
   {
     command: string;
     service?: Service;

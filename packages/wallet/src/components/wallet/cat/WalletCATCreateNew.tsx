@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from '@flaxlight/core';
+import { AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from '@renamemelite/core';
 import { Box, Grid } from '@material-ui/core';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router';
-import { flaxlight_to_mojo } from '../../../util/flaxlight';
+import { renamemelite_to_mojo } from '../../../util/renamemelite';
 
 type CreateCATWalletData = {
   amount: string;
@@ -55,8 +55,8 @@ export default function WalletCATCreateNew() {
       }
       */
 
-      const amountMojos = flaxlight_to_mojo(amount || '0');
-      const feeMojos = flaxlight_to_mojo(fee || '0');
+      const amountMojos = renamemelite_to_mojo(amount || '0');
+      const feeMojos = renamemelite_to_mojo(fee || '0');
 
 
       /*
@@ -74,7 +74,7 @@ export default function WalletCATCreateNew() {
     <Form methods={methods} onSubmit={handleSubmit}>
       <Flex flexDirection="column" gap={3}>
         <Back variant="h5">
-          <Trans>Create New Flax Asset Token Wallet</Trans>
+          <Trans>Create New Renameme Asset Token Wallet</Trans>
         </Back>
         <Card>
           <Grid spacing={2} container>

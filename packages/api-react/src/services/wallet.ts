@@ -1,10 +1,10 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import { Wallet, CAT, WalletType } from '@flaxlight/api';
-import flaxlightLazyBaseQuery from '../flaxlightLazyBaseQuery';
+import { Wallet, CAT, WalletType } from '@renamemelite/api';
+import renamemeliteLazyBaseQuery from '../renamemeliteLazyBaseQuery';
 import type Transaction from '../@types/Transaction';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';
 
-const baseQuery = flaxlightLazyBaseQuery({
+const baseQuery = renamemeliteLazyBaseQuery({
   service: Wallet,
 });
 

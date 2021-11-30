@@ -7,7 +7,7 @@ import {
   CardStep,
   Flex,
   TextField,
-} from '@flaxlight/core';
+} from '@renamemelite/core';
 import { Typography } from '@material-ui/core';
 import useSelectDirectory from '../../../hooks/useSelectDirectory';
 

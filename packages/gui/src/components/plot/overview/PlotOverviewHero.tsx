@@ -3,8 +3,8 @@ import { Trans } from '@lingui/macro';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import { Button, Grid, Typography, Divider } from '@material-ui/core';
-import { CardHero, Flex, Link } from '@flaxlight/core';
-import { PlotHero as PlotHeroIcon } from '@flaxlight/icons';
+import { CardHero, Flex, Link } from '@renamemelite/core';
+import { PlotHero as PlotHeroIcon } from '@renamemelite/icons';
 import PlotAddDirectoryDialog from '../PlotAddDirectoryDialog';
 import { refreshPlots } from '../../../modules/harvesterMessages';
 import useOpenDialog from '../../../hooks/useOpenDialog';
@@ -34,11 +34,11 @@ export default function PlotOverviewHero() {
           <Typography variant="body1">
             <Trans>
               {
-                'Plots are allocated space on your hard drive used to farm and earn Flax. '
+                'Plots are allocated space on your hard drive used to farm and earn Renameme. '
               }
               <Link
                 target="_blank"
-                href="https://github.com/Flax-Network/flax-blockchain/wiki/Network-Architecture"
+                href="https://github.com/Renameme-Network/renameme-blockchain/wiki/Network-Architecture"
               >
                 Learn more
               </Link>

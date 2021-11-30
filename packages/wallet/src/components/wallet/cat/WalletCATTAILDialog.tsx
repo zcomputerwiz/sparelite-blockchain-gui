@@ -10,7 +10,7 @@ import {
   InputAdornment,
   TextField,
 } from '@material-ui/core';
-import { CopyToClipboard, DialogActions, Loading } from '@flaxlight/core';
+import { CopyToClipboard, DialogActions, Loading } from '@renamemelite/core';
 import useWallet from '../../../hooks/useWallet';
 
 type Props = {

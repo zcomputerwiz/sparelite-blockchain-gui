@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
-import icon from './flaxlight_circle.svg';
+import icon from './renamemelite_circle.svg';
 
 const GlobalStyle = createGlobalStyle`
   body,
@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://flaxnetwork.org';
+const url = 'https://renamemenetwork.org';
 
 type Props = {
   version: string;
@@ -114,7 +114,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) 2021 Chia Network, Flax Network</div>
+        <div className="copyright">Copyright (c) 2021 Chia Network, Renameme Network</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (
@@ -144,7 +144,7 @@ export default function About(props: Props) {
         </VersionsTable>
 
         <BugReport
-          href="https://github.com/Flax-Network/flax-blockchain/issues"
+          href="https://github.com/Renameme-Network/renameme-blockchain/issues"
           target="_blank"
         >
           Report an issue

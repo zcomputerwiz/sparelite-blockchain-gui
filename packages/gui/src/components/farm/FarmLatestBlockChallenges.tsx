@@ -2,7 +2,7 @@ import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
 import { Typography } from '@material-ui/core';
-import { Link, Table, Card } from '@flaxlight/core';
+import { Link, Table, Card } from '@renamemelite/core';
 import type { RootState } from '../../modules/rootReducer';
 import type { Row } from '../core/components/Table/Table';
 
@@ -62,13 +62,13 @@ export default function FarmLatestBlockChallenges() {
       />
       <Typography variant="caption">
         <Trans>
-          *Want to explore Flax’s blocks further? Check out{' '}
+          *Want to explore Renameme’s blocks further? Check out{' '}
           <Link
             color="primary"
-            href="https://www.flaxexplorer.org/"
+            href="https://www.renamemeexplorer.org/"
             target="_blank"
           >
-            Flax Explorer
+            Renameme Explorer
           </Link>{' '}
           built by an open source developer.
         </Trans>

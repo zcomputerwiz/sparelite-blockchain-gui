@@ -1,6 +1,6 @@
 import React, { useState, forwardRef } from 'react';
 import { Trans } from '@lingui/macro';
-import { Button, CardStep, Select, Flex, Loading } from '@flaxlight/core';
+import { Button, CardStep, Select, Flex, Loading } from '@renamemelite/core';
 import {
   Box,
   Grid,

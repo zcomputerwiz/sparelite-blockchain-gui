@@ -1,6 +1,6 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import { FullNode } from '@flaxlight/api';
-import flaxlightLazyBaseQuery from '../flaxlightLazyBaseQuery';
+import { FullNode } from '@renamemelite/api';
+import renamemeliteLazyBaseQuery from '../renamemeliteLazyBaseQuery';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';
 import type Block from '../@types/Block';
 import type BlockRecord from '../@types/BlockRecord';
@@ -8,7 +8,7 @@ import type BlockHeader from '../@types/BlockHeader';
 import type BlockchainState from '../@types/BlockchainState';
 import type BlockchainConnection from '../@types/BlockchainConnection';
 
-const baseQuery = flaxlightLazyBaseQuery({
+const baseQuery = renamemeliteLazyBaseQuery({
   service: FullNode,
 });
 

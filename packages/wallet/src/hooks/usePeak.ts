@@ -1,5 +1,5 @@
 import type Peak from '../types/Peak';
-import { useGetBlockchainStateQuery } from '@flaxlight/api-react';
+import { useGetBlockchainStateQuery } from '@renamemelite/api-react';
 
 export default function usePeak(): {
   peak?: Peak;

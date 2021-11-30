@@ -1,7 +1,7 @@
 import React, { ReactNode, ReactElement } from 'react';
 import styled from 'styled-components';
 import { Trans } from '@lingui/macro';
-import { Flex, TooltipIcon } from '@flaxlight/core';
+import { Flex, TooltipIcon } from '@renamemelite/core';
 import {
   Box,
   Card,

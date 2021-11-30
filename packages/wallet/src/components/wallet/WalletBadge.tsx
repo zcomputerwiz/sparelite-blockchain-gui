@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Tooltip } from '@flaxlight/core';
-import { useGetCatListQuery } from '@flaxlight/api-react';
+import { Tooltip } from '@renamemelite/core';
+import { useGetCatListQuery } from '@renamemelite/api-react';
 import { VerifiedUser as VerifiedUserIcon, VerifiedUserProps } from '@material-ui/icons';
 import styled from 'styled-components';
 import Wallet from '../../types/Wallet';

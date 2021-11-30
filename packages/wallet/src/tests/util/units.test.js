@@ -2,8 +2,8 @@ const units = require('../../util/units');
 
 describe('units', () => {
   describe('#getUnit', () => {
-    it('gets unit of flaxlight', () => {
-      const result = units.getUnit('flaxlight');
+    it('gets unit of renamemelite', () => {
+      const result = units.getUnit('renamemelite');
 
       expect(result).toBe(1);
     });
@@ -18,11 +18,11 @@ describe('units', () => {
       expect(result).toBe(1e-9);
     });
     it('supports uppercase characters', () => {
-      const result = units.getUnit('FLAX');
+      const result = units.getUnit('RENAMEME');
 
       expect(result).toBe(1);
     });
-    it('gets unit of flaxlight using alias', () => {
+    it('gets unit of renamemelite using alias', () => {
       const result = units.getUnit('ch');
 
       expect(result).toBe(1);
@@ -46,8 +46,8 @@ describe('units', () => {
     });
   });
   describe('#getDisplay', () => {
-    it('gets display of flaxlight', () => {
-      const result = units.getDisplay('flaxlight');
+    it('gets display of renamemelite', () => {
+      const result = units.getDisplay('renamemelite');
 
       expect(result).toEqual({
         format: '{amount} CH',
@@ -87,13 +87,13 @@ describe('units', () => {
       expect(result).toEqual(1);
     });
     it('modifies an existing unit', () => {
-      units.setUnit('flaxlight', 9);
+      units.setUnit('renamemelite', 9);
 
-      const result = units.getUnit('flaxlight');
+      const result = units.getUnit('renamemelite');
 
       expect(result).toEqual(9);
 
-      units.setUnit('flaxlight', 1);
+      units.setUnit('renamemelite', 1);
     });
   });
   describe('#setDisplay', () => {
@@ -111,12 +111,12 @@ describe('units', () => {
       });
     });
     it('updates an existing display', () => {
-      units.setDisplay('flaxlight', {
+      units.setDisplay('renamemelite', {
         format: '{amount} TXFX',
         fractionDigits: 0,
       });
 
-      const result = units.getDisplay('flaxlight');
+      const result = units.getDisplay('renamemelite');
 
       expect(result).toEqual({
         format: '{amount} TXFX',

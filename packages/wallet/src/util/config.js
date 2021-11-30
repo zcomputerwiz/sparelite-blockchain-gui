@@ -15,11 +15,11 @@ let self_hostname = 'localhost';
 
 async function loadConfig(net) {
   try {
-    // check if FLAX_ROOT is set. it overrides 'net'
+    // check if RENAMEME_ROOT is set. it overrides 'net'
     const config_root_dir =
-      'FLAX_ROOT' in process.env
-        ? process.env.FLAX_ROOT
-        : path.join(os.homedir(), '.flaxlight', net);
+      'RENAMEME_ROOT' in process.env
+        ? process.env.RENAMEME_ROOT
+        : path.join(os.homedir(), '.renamemelite', net);
     const config = yaml.load(
       fs.readFileSync(path.join(config_root_dir, 'config/config.yaml'), 'utf8'),
     );

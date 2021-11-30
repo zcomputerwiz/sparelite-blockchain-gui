@@ -1,8 +1,8 @@
 {
-  "name": "@flaxlight/api",
-  "author": "Flax Network <hello@flaxnetwork.org> (https://flaxnetwork.org/)",
-  "description": "Flax API Library",
-  "productName": "Flax Blockchain",
+  "name": "@renamemelite/api",
+  "author": "Renameme Network <hello@renamemenetwork.org> (https://renamemenetwork.org/)",
+  "description": "Renameme API Library",
+  "productName": "Renameme Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {

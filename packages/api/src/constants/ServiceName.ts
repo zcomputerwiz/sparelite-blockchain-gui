@@ -1,11 +1,11 @@
 enum ServiceName {
-  WALLET = 'flaxlight_wallet',
-  FULL_NODE = 'flaxlight_full_node',
-  FARMER = 'flaxlight_farmer',
-  HARVESTER = 'flaxlight_harvester',
-  SIMULATOR = 'flaxlight_full_node_simulator',
+  WALLET = 'renamemelite_wallet',
+  FULL_NODE = 'renamemelite_full_node',
+  FARMER = 'renamemelite_farmer',
+  HARVESTER = 'renamemelite_harvester',
+  SIMULATOR = 'renamemelite_full_node_simulator',
   DAEMON = 'daemon',
-  PLOTTER = 'flaxlight plots create',
+  PLOTTER = 'renamemelite plots create',
   EVENTS = 'wallet_ui',
 }
 

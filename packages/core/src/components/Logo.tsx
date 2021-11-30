@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Box, BoxProps } from '@material-ui/core';
-import { Flax } from '@flaxlight/icons';
+import { Renameme } from '@renamemelite/icons';
 
-const StyledFlax = styled(Flax)`
+const StyledRenameme = styled(Renameme)`
   margin-top: 5px;
   width: 120px;
   height: auto;
@@ -12,7 +12,7 @@ const StyledFlax = styled(Flax)`
 export default function Logo(props: BoxProps) {
   return (
     <Box {...props}>
-      <StyledFlax />
+      <StyledRenameme />
     </Box>
   );
 }

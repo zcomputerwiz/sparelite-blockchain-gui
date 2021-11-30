@@ -1,7 +1,7 @@
 import React from 'react';
-import { Logo } from '@flaxlight/core';
+import { Logo } from '@renamemelite/core';
 import styled from 'styled-components';
-import { useGetCatListQuery } from '@flaxlight/api-react';
+import { useGetCatListQuery } from '@renamemelite/api-react';
 import Wallet from '../../types/Wallet';
 import WalletType from '../../constants/WalletType';
 import { Typography } from '@material-ui/core';

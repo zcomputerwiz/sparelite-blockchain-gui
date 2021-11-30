@@ -1,8 +1,8 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import flaxlightLazyBaseQuery from '../flaxlightLazyBaseQuery';
-import { ConnectionState, ServiceName } from '@flaxlight/api';
+import renamemeliteLazyBaseQuery from '../renamemeliteLazyBaseQuery';
+import { ConnectionState, ServiceName } from '@renamemelite/api';
 
-const baseQuery = flaxlightLazyBaseQuery();
+const baseQuery = renamemeliteLazyBaseQuery();
 
 export const clientApi = createApi({
   reducerPath: 'clientApi',

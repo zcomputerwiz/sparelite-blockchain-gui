@@ -1,8 +1,8 @@
 {
-  "name": "@flaxlight/icons",
-  "author": "Flax Network <hello@flaxnetwork.org> (https://flaxnetwork.org/)",
-  "description": "Flax Icons Library",
-  "productName": "Flax Blockchain",
+  "name": "@renamemelite/icons",
+  "author": "Renameme Network <hello@renamemenetwork.org> (https://renamemenetwork.org/)",
+  "description": "Renameme Icons Library",
+  "productName": "Renameme Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {

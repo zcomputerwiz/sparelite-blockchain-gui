@@ -14,16 +14,16 @@ function getInstallerConfig () {
   const outPath = path.join(rootPath, 'release-builds')
 
   return Promise.resolve({
-    appDirectory: path.join(rootPath, 'Flax Light Wallet-win32-x64'),
-    authors: 'Flax Network',
-    version: process.env.FLAX_INSTALLER_VERSION,
+    appDirectory: path.join(rootPath, 'Renameme Light Wallet-win32-x64'),
+    authors: 'Renameme Network',
+    version: process.env.RENAMEME_INSTALLER_VERSION,
     noMsi: true,
-    iconUrl: 'https://raw.githubusercontent.com/Flax-Network/flax-blockchain/master/electron-react/src/assets/img/flaxlight.ico',
+    iconUrl: 'https://raw.githubusercontent.com/Renameme-Network/renameme-blockchain/master/electron-react/src/assets/img/renamemelite.ico',
     outputDirectory: path.join(outPath, 'windows-installer'),
     
     
-    exe: 'FlaxLight.exe',
-    setupExe: 'FlaxLightSetup-' + process.env.FLAX_INSTALLER_VERSION + '.exe',
-    setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'flaxlight.ico')
+    exe: 'Renamemelite.exe',
+    setupExe: 'RenamemeliteSetup-' + process.env.RENAMEME_INSTALLER_VERSION + '.exe',
+    setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'renamemelite.ico')
   })
 }

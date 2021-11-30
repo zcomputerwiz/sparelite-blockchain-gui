@@ -5,7 +5,7 @@ import {
   Flex,
   ConfirmDialog,
   useOpenDialog,
-} from '@flaxlight/core';
+} from '@renamemelite/core';
 import { useHistory } from 'react-router';
 import {
   Box,
@@ -17,7 +17,7 @@ import {
 import {
   Delete as DeleteIcon,
 } from '@material-ui/icons';
-import { useDeleteUnconfirmedTransactionsMutation } from '@flaxlight/api-react';
+import { useDeleteUnconfirmedTransactionsMutation } from '@renamemelite/api-react';
 import WalletStatus from './WalletStatus';
 import WalletsDropdodown from './WalletsDropdown';
 import isDebug from '../../util/isDebug';

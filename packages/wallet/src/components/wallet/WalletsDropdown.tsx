@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { ListItemIcon, ListItemText, Typography } from '@material-ui/core';
-import { Dropdown, Flex, Loading } from '@flaxlight/core';
-import { useGetWalletsQuery } from '@flaxlight/api-react';
+import { Dropdown, Flex, Loading } from '@renamemelite/core';
+import { useGetWalletsQuery } from '@renamemelite/api-react';
 import { useHistory } from 'react-router';
 import WalletName from '../../constants/WalletName';
 import useTrans from '../../hooks/useTrans';

@@ -10,8 +10,8 @@ import {
   Home as HomeIcon,
   Plot as PlotIcon,
   Pool as PoolIcon,
-} from '@flaxlight/icons';
-import { Flex, SideBarItem } from '@flaxlight/core';
+} from '@renamemelite/icons';
+import { Flex, SideBarItem } from '@renamemelite/core';
 import { logOut } from '../../modules/message';
 
 const StyledRoot = styled(Flex)`

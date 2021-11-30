@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
 import moment from 'moment';
-import { State } from '@flaxlight/core';
+import { State } from '@renamemelite/core';
 import type { RootState } from '../../../modules/rootReducer';
 import FarmCard from './FarmCard';
 import type Plot from '../../../types/Plot';

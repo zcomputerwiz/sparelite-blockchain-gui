@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: fr_FR\n"
-"Project-Id-Version: flaxlight-blockchain\n"
+"Project-Id-Version: renamemelite-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:40\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Crowdin-Project: flaxlight-blockchain\n"
+"X-Crowdin-Project: renamemelite-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /[Flax-Network.flax-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Renameme-Network.renameme-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr "(Facultatif)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Flax’s blocks further? Check out <0>Flax Explorer</0> built by an open source developer."
-msgstr "*Vous voulez explorer la blockchain Flax plus en détail ? Consultez <0>Flax Explorer</0> construit par un développeur open source."
+msgid "*Want to explore Renameme’s blocks further? Check out <0>Renameme Explorer</0> built by an open source developer."
+msgstr "*Vous voulez explorer la blockchain Renameme plus en détail ? Consultez <0>Renameme Explorer</0> construit par un développeur open source."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -48,8 +48,8 @@ msgstr "Le moissonneur est un service qui tourne sur une machine qui stocke des 
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Flax Blockchain"
-msgstr "À propos de la blockchain Flax"
+msgid "About Renameme Blockchain"
+msgstr "À propos de la blockchain Renameme"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -228,8 +228,8 @@ msgid "Block VDF Iterations"
 msgstr "Itération du bloc VDF"
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Flax blockchain"
-msgstr "Bloc à la hauteur {0} dans la blockchain Flax"
+msgid "Block at height {0} in the Renameme blockchain"
+msgstr "Bloc à la hauteur {0} dans la blockchain Renameme"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -322,16 +322,16 @@ msgid "Chat on Discord"
 msgstr "Chat sur Discord"
 
 #: src/electron/main.tsx:419
-msgid "Flax"
-msgstr "Flax"
+msgid "Renameme"
+msgstr "Renameme"
 
 #: src/electron/main.tsx:358
-msgid "Flax Blockchain Wiki"
-msgstr "Wiki de la Flax Blockchain"
+msgid "Renameme Blockchain Wiki"
+msgstr "Wiki de la Renameme Blockchain"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
-msgid "Flax Wallet"
-msgstr "Portefeuille Flax"
+msgid "Renameme Wallet"
+msgstr "Portefeuille Renameme"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -737,8 +737,8 @@ msgid "Edit Payout Instructions"
 msgstr "Modifier les instructions de paiement"
 
 #: src/components/wallet/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Flax wallet."
-msgstr "Entrez les 24 mots mnémotechniques que vous avez sauvegardé afin de restaurer votre portefeuille Flax."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Renameme wallet."
+msgstr "Entrez les 24 mots mnémotechniques que vous avez sauvegardé afin de restaurer votre portefeuille Renameme."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -751,8 +751,8 @@ msgid "Error"
 msgstr "Erreur"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send flaxlight to coloured address. Please enter a flaxlight address."
-msgstr "Erreur: Impossible d'envoyer du flaxlight à une adresse colorée. Merci d'entrer une adresse flaxlight valide."
+msgid "Error: Cannot send renamemelite to coloured address. Please enter a renamemelite address."
+msgstr "Erreur: Impossible d'envoyer du renamemelite à une adresse colorée. Merci d'entrer une adresse renamemelite valide."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1576,8 +1576,8 @@ msgid "Plots Passed Filter"
 msgstr "Parcelles passées par le filtre"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Flax. <0>Learn more</0>"
-msgstr "Les parcelles constituent l'espace alloué sur votre disque dur pour cultiver et gagner du Flax. <0>En savoir plus</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Renameme. <0>Learn more</0>"
+msgstr "Les parcelles constituent l'espace alloué sur votre disque dur pour cultiver et gagner du Renameme. <0>En savoir plus</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -2041,8 +2041,8 @@ msgstr "Intervalle de dépense (nombre de blocs)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (flaxlight per interval): {0}"
-msgstr "Limite de dépense (flaxlight par intervalle): {0}"
+msgid "Spending Limit (renamemelite per interval): {0}"
+msgstr "Limite de dépense (renamemelite par intervalle): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2090,8 +2090,8 @@ msgstr "Statut:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Flax blockchain"
-#~ msgstr "Sub Block at height {0} in the Flax blockchain"
+#~ msgid "Sub Block at height {0} in the Renameme blockchain"
+#~ msgstr "Sub Block at height {0} in the Renameme blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2240,8 +2240,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Cette caractéristique est uniquement disponible via l'interface graphique."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Flax that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Flax that you have just spent but is not yet in the blockchain."
-msgstr "Il s'agit du montant de Flax que vous pouvez actuellement utiliser pour effectuer des transactions. Cela n'inclut pas les récompenses de culture et les transactions en attente ainsi que les Flax que vous venez de dépenser et qui ne sont pas encore dans la blockchain."
+msgid "This is the amount of Renameme that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Renameme that you have just spent but is not yet in the blockchain."
+msgstr "Il s'agit du montant de Renameme que vous pouvez actuellement utiliser pour effectuer des transactions. Cela n'inclut pas les récompenses de culture et les transactions en attente ainsi que les Renameme que vous venez de dépenser et qui ne sont pas encore dans la blockchain."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2260,8 +2260,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "C'est le moment où le bloc a été créé par le fermier, ce qui se produit avant qu'il ne soit finalisé par une preuve de temps"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of flaxlight in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Il s'agit de la quantité totale de Flax dans la blockchain au plus récent sous-bloc contrôlé par vos clés privées. Il comprend des récompenses de culture gelées, mais pas des transactions entrantes et sortantes."
+msgid "This is the total amount of renamemelite in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Il s'agit de la quantité totale de Renameme dans la blockchain au plus récent sous-bloc contrôlé par vos clés privées. Il comprend des récompenses de culture gelées, mais pas des transactions entrantes et sortantes."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2306,8 +2306,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Cette transaction a été incluse sur la blockchain à cette hauteur de bloc"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Flax is no longer compatible with the blockchain and can not safely farm."
-msgstr "Cette version de Flax n'est plus compatible avec la blockchain et ne peut pas cultiver de façon sûre."
+msgid "This version of Renameme is no longer compatible with the blockchain and can not safely farm."
+msgstr "Cette version de Renameme n'est plus compatible avec la blockchain et ne peut pas cultiver de façon sûre."
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2331,8 +2331,8 @@ msgstr "À"
 msgid "Total Balance"
 msgstr "Solde total"
 
-#: src/components/farm/card/FarmCardTotalFlaxFarmed.tsx:15
-#~ msgid "Total Flax Farmed"
+#: src/components/farm/card/FarmCardTotalRenamemeFarmed.tsx:15
+#~ msgid "Total Renameme Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2508,7 +2508,7 @@ msgstr "Le portefeuille n’existe pas"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.flaxlightWallet"
+#~ msgid "WalletItem.renamemeliteWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2545,8 +2545,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Vous voulez rejoindre un pool ? Créez un NFT de parcelle"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Flax? Add more plots to your farm."
-msgstr "Vous voulez gagner plus de Flax ? Ajoutez plus de parcelles à votre ferme."
+msgid "Want to earn more Renameme? Add more plots to your farm."
+msgstr "Vous voulez gagner plus de Renameme ? Ajoutez plus de parcelles à votre ferme."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2573,8 +2573,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Le poids est la difficulté totale de tous les sous-blocs, celui-ci inclus"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Flax. Please log in with an existing key, or create a new key."
-msgstr "Bienvenue sur Flax. Veuillez vous connecter avec une clé existante, ou créer une nouvelle clé."
+msgid "Welcome to Renameme. Please log in with an existing key, or create a new key."
+msgstr "Bienvenue sur Renameme. Veuillez vous connecter avec une clé existante, ou créer une nouvelle clé."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2648,8 +2648,8 @@ msgid "You need to claim your rewards first"
 msgstr "Vous devez d'abord réclamer vos récompenses"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Flax application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Flax application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Renameme application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Renameme application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -2740,9 +2740,9 @@ msgstr "{0} points {1} - il y a {2} heures"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} récompenses de blocs"
 
-#: src/components/farm/card/FarmCardTotalFlaxFarmed.tsx:29
-msgid "{currencyCode} Total Flax Farmed"
-msgstr "{currencyCode} Total de Flax récoltés"
+#: src/components/farm/card/FarmCardTotalRenamemeFarmed.tsx:29
+msgid "{currencyCode} Total Renameme Farmed"
+msgstr "{currencyCode} Total de Renameme récoltés"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

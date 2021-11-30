@@ -1,4 +1,4 @@
-import { useGetNetworkInfoQuery } from '@flaxlight/api-react';
+import { useGetNetworkInfoQuery } from '@renamemelite/api-react';
 
 export default function useCurrencyCode(): string | undefined {
   const { data: networkInfo, isLoading } = useGetNetworkInfoQuery();

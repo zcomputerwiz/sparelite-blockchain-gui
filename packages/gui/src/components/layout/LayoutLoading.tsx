@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { Typography } from '@material-ui/core';
-import { Loading } from '@flaxlight/core';
+import { Loading } from '@renamemelite/core';
 import LayoutHero from './LayoutHero';
 
 type Props = {

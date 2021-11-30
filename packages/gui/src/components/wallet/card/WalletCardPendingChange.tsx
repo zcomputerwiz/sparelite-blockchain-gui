@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import FarmCard from '../../farm/card/FarmCard';
 import useWallet from '../../../hooks/useWallet';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
-import { mojo_to_flaxlight_string } from '../../../util/flaxlight';
+import { mojo_to_renamemelite_string } from '../../../util/renamemelite';
 
 type Props = {
   wallet_id: number;
@@ -30,7 +30,7 @@ export default function WalletCardPendingChange(props: Props) {
       }
       value={
         <>
-          {mojo_to_flaxlight_string(value)} {currencyCode}
+          {mojo_to_renamemelite_string(value)} {currencyCode}
         </>
       }
     />

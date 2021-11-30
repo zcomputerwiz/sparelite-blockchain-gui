@@ -1,8 +1,8 @@
 {
-  "name": "@flaxlight/wallet",
-  "author": "Flax Network <hello@flaxnetwork.org> (https://flaxnetwork.org/)",
-  "description": "Standalone wallet for Flax Blockchain",
-  "productName": "Flax Light Wallet",
+  "name": "@renamemelite/wallet",
+  "author": "Renameme Network <hello@renamemenetwork.org> (https://renamemenetwork.org/)",
+  "description": "Standalone wallet for Renameme Blockchain",
+  "productName": "Renameme Light Wallet",
   "private": true,
   "homepage": "./",
   "main": "build/electron/main.js",
@@ -27,10 +27,10 @@
     "lint": "tsc --noEmit && npm run eslint"
   },
   "dependencies": {
-    "@flaxlight/core": "^1.0.0",
-    "@flaxlight/icons": "^1.0.0",
-    "@flaxlight/api": "^1.0.0",
-    "@flaxlight/api-react": "^1.0.0",
+    "@renamemelite/core": "^1.0.0",
+    "@renamemelite/icons": "^1.0.0",
+    "@renamemelite/api": "^1.0.0",
+    "@renamemelite/api-react": "^1.0.0",
     "@fontsource/roboto": "^4.5.1",
     "@lingui/core": "^3.12.1",
     "@lingui/macro": "^3.12.1",

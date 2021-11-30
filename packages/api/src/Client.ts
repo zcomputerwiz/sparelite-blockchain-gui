@@ -8,7 +8,7 @@ import type Service from './services/Service';
 import ErrorData from './utils/ErrorData';
 import ConnectionState from './constants/ConnectionState';
 
-const log = debug('flaxlight-api:client');
+const log = debug('renamemelite-api:client');
 
 type Options = {
   url: string;
@@ -50,7 +50,7 @@ export default class Client extends EventEmitter {
     this.options = {
       timeout: 60 * 1000 * 10, // 10 minutes
       camelCase: true,
-      backupHost: 'https://backup.flaxnetwork.org',
+      backupHost: 'https://backup.renamemenetwork.org',
       debug: false,
       services: [],
       ...options,

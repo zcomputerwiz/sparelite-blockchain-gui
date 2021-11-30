@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Flex } from '@flaxlight/core';
+import { Flex } from '@renamemelite/core';
 import {
   Typography,
   Grid,

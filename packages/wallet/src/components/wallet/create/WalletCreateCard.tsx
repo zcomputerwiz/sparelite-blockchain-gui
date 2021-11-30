@@ -1,5 +1,5 @@
 import React, { useState, ReactNode } from 'react';
-import { Card, Flex, Loading } from '@flaxlight/core';
+import { Card, Flex, Loading } from '@renamemelite/core';
 import { Typography } from '@material-ui/core';
 import styled from 'styled-components';
 

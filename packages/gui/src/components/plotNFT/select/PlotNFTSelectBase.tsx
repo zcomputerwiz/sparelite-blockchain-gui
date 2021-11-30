@@ -12,7 +12,7 @@ import {
   RadioGroup,
   Fee,
   TextField,
-} from '@flaxlight/core';
+} from '@renamemelite/core';
 import {
   Grid,
   FormControl,

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
 import styled from 'styled-components';
-import { ConfirmDialog, useOpenDialog, LoadingOverlay, useShowError } from '@flaxlight/core';
+import { ConfirmDialog, useOpenDialog, LoadingOverlay, useShowError } from '@renamemelite/core';
 import { Alert } from '@material-ui/lab';
 import {
   Tooltip,
@@ -19,7 +19,7 @@ import {
   useCheckDeleteKeyMutation,
   useDeleteKeyMutation,
   useLogInAndSkipImportMutation,
-} from '@flaxlight/api-react';
+} from '@renamemelite/api-react';
 import SelectKeyDetailDialog from './SelectKeyDetailDialog';
 
 const StyledFingerprintListItem = styled(ListItem)`

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans, t } from '@lingui/macro';
-import { Back, ButtonLoading, Card, Flex, Form, TextField } from '@flaxlight/core';
+import { Back, ButtonLoading, Card, Flex, Form, TextField } from '@renamemelite/core';
 import { Box, Grid } from '@material-ui/core';
-import { useAddCATTokenMutation } from '@flaxlight/api-react';
+import { useAddCATTokenMutation } from '@renamemelite/api-react';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router';
 import useWalletState from '../../../hooks/useWalletState';

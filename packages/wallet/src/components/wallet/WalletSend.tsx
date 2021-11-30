@@ -4,7 +4,7 @@ import {
   useGetSyncStatusQuery,
   useSendTransactionMutation,
   useFarmBlockMutation,
-} from '@flaxlight/api-react';
+} from '@renamemelite/api-react';
 import {
   AlertDialog,
   Amount,
@@ -15,14 +15,14 @@ import {
   Flex,
   Card,
   useOpenDialog,
-} from '@flaxlight/core';
+} from '@renamemelite/core';
 import isNumeric from 'validator/es/lib/isNumeric';
 import { useForm, useWatch } from 'react-hook-form';
 import {
   Button,
   Grid,
 } from '@material-ui/core';
-import { flaxlight_to_mojo } from '../../util/flaxlight';
+import { renamemelite_to_mojo } from '../../util/renamemelite';
 import config from '../../config/config';
 import useWallet from '../../hooks/useWallet';
 import getTransactionResult from '../../util/getTransactionResult';
@@ -96,10 +96,10 @@ export default function WalletSend(props: SendCardProps) {
 
     let address = data.address;
     if (address.includes('colour')) {
-      throw new Error(t`Cannot send flaxlight to coloured address. Please enter a flaxlight address.`);
+      throw new Error(t`Cannot send renamemelite to coloured address. Please enter a renamemelite address.`);
     }
 
-    if (address.slice(0, 12) === 'flaxlight_addr://') {
+    if (address.slice(0, 12) === 'renamemelite_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {
@@ -109,8 +109,8 @@ export default function WalletSend(props: SendCardProps) {
     const response = await sendTransaction({
       walletId,
       address,
-      amount: Number.parseFloat(flaxlight_to_mojo(amount)),
-      fee: Number.parseFloat(flaxlight_to_mojo(fee)),
+      amount: Number.parseFloat(renamemelite_to_mojo(amount)),
+      fee: Number.parseFloat(renamemelite_to_mojo(fee)),
       waitForConfirmation: true,
     }).unwrap();
 

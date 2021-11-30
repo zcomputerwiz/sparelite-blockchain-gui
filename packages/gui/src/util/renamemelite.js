@@ -1,5 +1,5 @@
-import Big from 'big.js';
-import units from './units';
+const Big = require('big.js');
+const units = require('./units');
 
 // TODO: use bigint instead of float
 const convert = (amount, from, to) => {
@@ -12,7 +12,7 @@ const convert = (amount, from, to) => {
   return Number.parseFloat(amountInFromUnit.div(units.getUnit(to)));
 };
 
-class Flax {
+class Renameme {
   constructor(value, unit) {
     this._value = value;
     this._unit = unit;
@@ -73,42 +73,42 @@ class Flax {
   }
 }
 
-export const flaxlight_formatter = (value, unit) => new Flax(value, unit);
+export const renamemelite_formatter = (value, unit) => new Renameme(value, unit);
 
-flaxlight_formatter.convert = convert;
-flaxlight_formatter.setDisplay = units.setDisplay;
-flaxlight_formatter.setUnit = units.setUnit;
-flaxlight_formatter.getUnit = units.getUnit;
-flaxlight_formatter.setFiat = (currency, rate, display = null) => {
+renamemelite_formatter.convert = convert;
+renamemelite_formatter.setDisplay = units.setDisplay;
+renamemelite_formatter.setUnit = units.setUnit;
+renamemelite_formatter.getUnit = units.getUnit;
+renamemelite_formatter.setFiat = (currency, rate, display = null) => {
   units.setUnit(currency, 1 / rate, display);
 };
 
-export const mojo_to_flaxlight = (mojo) => {
-  return flaxlight_formatter(Number.parseInt(mojo), 'mojo').to('flaxlight').value();
+export const mojo_to_renamemelite = (mojo) => {
+  return renamemelite_formatter(Number.parseInt(mojo), 'mojo').to('renamemelite').value();
 };
 
-export const flaxlight_to_mojo = (flaxlight) => {
-  return flaxlight_formatter(Number.parseFloat(Number(flaxlight)), 'flaxlight')
+export const renamemelite_to_mojo = (renamemelite) => {
+  return renamemelite_formatter(Number.parseFloat(Number(renamemelite)), 'renamemelite')
     .to('mojo')
     .value();
 };
 
-export const mojo_to_flaxlight_string = (mojo) => {
-  return flaxlight_formatter(Number(mojo), 'mojo').to('flaxlight').toString();
+export const mojo_to_renamemelite_string = (mojo) => {
+  return renamemelite_formatter(Number(mojo), 'mojo').to('renamemelite').toString();
 };
 
 export const mojo_to_colouredcoin = (mojo) => {
-  return flaxlight_formatter(Number.parseInt(mojo), 'mojo')
+  return renamemelite_formatter(Number.parseInt(mojo), 'mojo')
     .to('colouredcoin')
     .value();
 };
 
 export const colouredcoin_to_mojo = (colouredcoin) => {
-  return flaxlight_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
+  return renamemelite_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
     .to('mojo')
     .value();
 };
 
 export const mojo_to_colouredcoin_string = (mojo) => {
-  return flaxlight_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
+  return renamemelite_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
 };

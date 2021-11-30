@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, Fee, Back, ButtonLoading, Card, Flex, Form, TextField } from '@flaxlight/core';
+import { AlertDialog, Fee, Back, ButtonLoading, Card, Flex, Form, TextField } from '@renamemelite/core';
 import { Box, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router';
 import { create_cc_for_colour_action } from '../../../modules/message';
-import { flaxlight_to_mojo } from '../../../util/flaxlight';
+import { renamemelite_to_mojo } from '../../../util/renamemelite';
 import { openDialog } from '../../../modules/dialog';
 import config from '../../../config/config';
 
@@ -57,7 +57,7 @@ export default function WalletCATCreateExisting() {
         return;
       }*/
 
-      const feeMojos = flaxlight_to_mojo(fee || '0');
+      const feeMojos = renamemelite_to_mojo(fee || '0');
 
       const response = await dispatch(create_cc_for_colour_action(name, feeMojos));
       if (response && response.data && response.data.success === true) {
@@ -74,7 +74,7 @@ export default function WalletCATCreateExisting() {
         <Back variant="h5">
           {asteroid 
             ? <Trans>Create custom CAT Wallet</Trans>
-            : <Trans>Create Flax Asset Token Wallet from Existing TAIL</Trans>}
+            : <Trans>Create Renameme Asset Token Wallet from Existing TAIL</Trans>}
           
         </Back>
         <Card>
