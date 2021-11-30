@@ -11,7 +11,7 @@ import PlotNFTSelectBase from './PlotNFTSelectBase';
 import normalizeUrl from '../../../util/normalizeUrl';
 import getPoolInfo from '../../../util/getPoolInfo';
 import InitialTargetState from '../../../types/InitialTargetState';
-import { sparelite_to_mojo } from '../../../util/sparelite';
+import { sparelite_to_graviton } from '../../../util/sparelite';
 import useStandardWallet from '../../../hooks/useStandardWallet';
 import PlotNFTSelectFaucet from './PlotNFTSelectFaucet';
 
@@ -43,10 +43,10 @@ async function prepareSubmitData(data: FormData): SubmitData {
     initialTargetState.relative_lock_height = relative_lock_height;
   }
 
-  const feeMojos = sparelite_to_mojo(fee);
+  const feeGravitons = sparelite_to_graviton(fee);
 
   return {
-    fee: feeMojos,
+    fee: feeGravitons,
     initialTargetState,
   };
 }

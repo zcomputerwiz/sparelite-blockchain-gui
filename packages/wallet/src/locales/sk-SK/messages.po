@@ -2965,5 +2965,5 @@ msgstr "synchronizácia"
 #~ msgstr "{currencyCode} Užívateľské poplatky za transakcie"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
-#~ msgstr "{mojo, plural, one {mojo} few {mojos} many {mojos} other {mojos}}"
+#~ msgid "{graviton, plural, one {graviton} other {gravitons}}"
+#~ msgstr "{graviton, plural, one {graviton} few {gravitons} many {gravitons} other {gravitons}}"

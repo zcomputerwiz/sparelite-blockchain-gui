@@ -28,7 +28,7 @@ import {
   sha256,
 } from '../../util/utils';
 import { getBlockRecord, getBlock } from '../../modules/fullnodeMessages';
-import { mojo_to_sparelite } from '../../util/sparelite';
+import { graviton_to_sparelite } from '../../util/sparelite';
 import {
   calculatePoolReward,
   calculateBaseFarmerReward,
@@ -172,13 +172,13 @@ export default function Block() {
       ? blockRecord.weight - prevBlockRecord.weight
       : blockRecord?.weight ?? 0;
 
-  const poolReward = mojo_to_sparelite(calculatePoolReward(blockRecord.height));
-  const baseFarmerReward = mojo_to_sparelite(
+  const poolReward = graviton_to_sparelite(calculatePoolReward(blockRecord.height));
+  const baseFarmerReward = graviton_to_sparelite(
     calculateBaseFarmerReward(blockRecord.height),
   );
 
   const spareliteFees = blockRecord.fees
-    ? mojo_to_sparelite(BigInt(blockRecord.fees))
+    ? graviton_to_sparelite(BigInt(blockRecord.fees))
     : '';
 
   const rows = [

@@ -2749,5 +2749,5 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Transaktioveloitukset Käyttäjälle"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
-#~ msgstr "{mojo, plural, one {mojo} other {mojoa}}"
+#~ msgid "{graviton, plural, one {graviton} other {gravitons}}"
+#~ msgstr "{graviton, plural, one {graviton} other {gravitona}}"

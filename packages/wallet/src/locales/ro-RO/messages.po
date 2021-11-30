@@ -2965,5 +2965,5 @@ msgstr "se sincronizeaza"
 #~ msgstr "{currencyCode} Comisioane de tranzacție"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgid "{graviton, plural, one {graviton} other {gravitons}}"
 #~ msgstr ""

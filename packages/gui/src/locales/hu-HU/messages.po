@@ -2751,5 +2751,5 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "Felhasználói tranzakciós díjak {currencyCode}"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgid "{graviton, plural, one {graviton} other {gravitons}}"
 #~ msgstr ""

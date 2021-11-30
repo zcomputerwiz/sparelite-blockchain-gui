@@ -2965,5 +2965,5 @@ msgstr "sincronizando"
 #~ msgstr "{currencyCode} Taxas de transação do usuário"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
-#~ msgstr "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgid "{graviton, plural, one {graviton} other {gravitons}}"
+#~ msgstr "{graviton, plural, one {graviton} other {gravitons}}"

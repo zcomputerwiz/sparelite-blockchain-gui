@@ -20,7 +20,7 @@ import {
 } from '../../../modules/createWallet';
 import { useStyles } from './WalletCreate';
 import { create_cc_action } from '../../../modules/message';
-import { sparelite_to_mojo } from '../../../util/sparelite';
+import { sparelite_to_graviton } from '../../../util/sparelite';
 import { openDialog } from '../../../modules/dialog';
 
 export const customStyles = makeStyles((theme) => ({
@@ -83,8 +83,8 @@ export const CreateNewCCWallet = () => {
       return;
     }
     dispatch(createState(true, true));
-    const amount = sparelite_to_mojo(amount_input.value);
-    const fee = sparelite_to_mojo(fee_input.value);
+    const amount = sparelite_to_graviton(amount_input.value);
+    const fee = sparelite_to_graviton(fee_input.value);
     dispatch(create_cc_action(amount, fee));
   }
 

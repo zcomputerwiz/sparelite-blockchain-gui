@@ -7,8 +7,8 @@ import { Card, CardKeyValue, CopyToClipboard, Flex, Loading, TableControlled } f
 import styled from 'styled-components';
 import type { Row } from '../core/components/Table/Table';
 import {
-  mojo_to_sparelite_string,
-  mojo_to_colouredcoin_string,
+  graviton_to_sparelite_string,
+  graviton_to_colouredcoin_string,
 } from '../../util/sparelite';
 import TransactionType from '../../constants/TransactionType';
 import WalletType from '../../constants/WalletType';
@@ -113,8 +113,8 @@ const getCols = (type: WalletType) => [
           &nbsp;
           <strong>
             {type === WalletType.CAT
-            ? mojo_to_colouredcoin_string(row.amount)
-            : mojo_to_sparelite_string(row.amount)}
+            ? graviton_to_colouredcoin_string(row.amount)
+            : graviton_to_sparelite_string(row.amount)}
           </strong>
           &nbsp;
           {metadata.unit}
@@ -126,7 +126,7 @@ const getCols = (type: WalletType) => [
   {
     field: (row: Row, metadata) => (
       <>
-        <strong>{mojo_to_sparelite_string(row.feeAmount)}</strong>
+        <strong>{graviton_to_sparelite_string(row.feeAmount)}</strong>
         &nbsp;
         {metadata.feeUnit}
       </>

@@ -83,32 +83,32 @@ sparelite_formatter.setFiat = (currency, rate, display = null) => {
   units.setUnit(currency, 1 / rate, display);
 };
 
-export const mojo_to_sparelite = (mojo) => {
-  return sparelite_formatter(Number.parseInt(mojo), 'mojo').to('sparelite').value();
+export const graviton_to_sparelite = (graviton) => {
+  return sparelite_formatter(Number.parseInt(graviton), 'graviton').to('sparelite').value();
 };
 
-export const sparelite_to_mojo = (sparelite) => {
+export const sparelite_to_graviton = (sparelite) => {
   return sparelite_formatter(Number.parseFloat(Number(sparelite)), 'sparelite')
-    .to('mojo')
+    .to('graviton')
     .value();
 };
 
-export const mojo_to_sparelite_string = (mojo) => {
-  return sparelite_formatter(Number(mojo), 'mojo').to('sparelite').toString();
+export const graviton_to_sparelite_string = (graviton) => {
+  return sparelite_formatter(Number(graviton), 'graviton').to('sparelite').toString();
 };
 
-export const mojo_to_colouredcoin = (mojo) => {
-  return sparelite_formatter(Number.parseInt(mojo), 'mojo')
+export const graviton_to_colouredcoin = (graviton) => {
+  return sparelite_formatter(Number.parseInt(graviton), 'graviton')
     .to('colouredcoin')
     .value();
 };
 
-export const colouredcoin_to_mojo = (colouredcoin) => {
+export const colouredcoin_to_graviton = (colouredcoin) => {
   return sparelite_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
-    .to('mojo')
+    .to('graviton')
     .value();
 };
 
-export const mojo_to_colouredcoin_string = (mojo) => {
-  return sparelite_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
+export const graviton_to_colouredcoin_string = (graviton) => {
+  return sparelite_formatter(Number(graviton), 'graviton').to('colouredcoin').toString();
 };

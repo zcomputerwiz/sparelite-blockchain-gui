@@ -34,7 +34,7 @@ function NumberFormatCustom(props: NumberFormatCustomProps) {
 }
 
 export type TextFieldNumberProps = TextFieldProps & {
-  children?: (props: { mojo: number; value: string | undefined }) => ReactNode;
+  children?: (props: { graviton: number; value: string | undefined }) => ReactNode;
   name?: string;
   currency?: ReactNode;
 };

@@ -29,7 +29,7 @@ import {
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Tooltip } from '@material-ui/core';
 import HelpIcon from '@material-ui/icons/Help';
-import { mojo_to_sparelite_string } from '../../../util/sparelite';
+import { graviton_to_sparelite_string } from '../../../util/sparelite';
 import { useForm, Controller, useFieldArray } from 'react-hook-form';
 import { openDialog } from '../../../modules/dialog';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
@@ -613,7 +613,7 @@ const BalanceCardSubSection = (props) => {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojo_to_sparelite_string(props.balance)} TSPARE
+            {graviton_to_sparelite_string(props.balance)} TSPARE
           </Typography>
         </Box>
       </Box>

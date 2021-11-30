@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
 import type { RootState } from '../../../modules/rootReducer';
 import FarmCard from './FarmCard';
-import { mojo_to_sparelite } from '../../../util/sparelite';
+import { graviton_to_sparelite } from '../../../util/sparelite';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
 
 export default function FarmCardTotalSpareFarmed() {
@@ -20,7 +20,7 @@ export default function FarmCardTotalSpareFarmed() {
   const totalSpareFarmed = useMemo(() => {
     if (farmedAmount !== undefined) {
       const val = BigInt(farmedAmount.toString());
-      return mojo_to_sparelite(val);
+      return graviton_to_sparelite(val);
     }
   }, [farmedAmount]);
 

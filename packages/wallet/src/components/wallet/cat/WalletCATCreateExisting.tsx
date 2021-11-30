@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router';
 import { create_cc_for_colour_action } from '../../../modules/message';
-import { sparelite_to_mojo } from '../../../util/sparelite';
+import { sparelite_to_graviton } from '../../../util/sparelite';
 import { openDialog } from '../../../modules/dialog';
 import config from '../../../config/config';
 
@@ -57,9 +57,9 @@ export default function WalletCATCreateExisting() {
         return;
       }*/
 
-      const feeMojos = sparelite_to_mojo(fee || '0');
+      const feeGravitons = sparelite_to_graviton(fee || '0');
 
-      const response = await dispatch(create_cc_for_colour_action(name, feeMojos));
+      const response = await dispatch(create_cc_for_colour_action(name, feeGravitons));
       if (response && response.data && response.data.success === true) {
         history.push(`/dashboard/wallets/${response.data.wallet_id}`);
       }

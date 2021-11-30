@@ -145,7 +145,7 @@ msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:42
 #~ msgid "Add {currencyCode} from the Faucet"
-#~ msgstr "Tilføj {currencyCode} fra Mojohanen"
+#~ msgstr "Tilføj {currencyCode} fra Gravitonhanen"
 
 #: src/components/wallet/cat/WalletCATCreateSimple.tsx:95
 msgid "Adding {0} token"
@@ -2965,5 +2965,5 @@ msgstr "synkroniserer"
 #~ msgstr "{currencyCode} Bruger Transaktionsgebyrer"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
-#~ msgstr "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgid "{graviton, plural, one {graviton} other {gravitons}}"
+#~ msgstr "{graviton, plural, one {graviton} other {gravitons}}"

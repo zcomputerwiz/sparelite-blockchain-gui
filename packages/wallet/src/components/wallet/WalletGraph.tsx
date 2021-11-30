@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import { useGetWalletBalanceQuery } from '@sparelite/api-react';
 import TransactionType from '../../constants/TransactionType';
 import type Transaction from '../../types/Transaction';
-import { mojo_to_sparelite } from '../../util/sparelite';
+import { graviton_to_sparelite } from '../../util/sparelite';
 import blockHeightToTimestamp from '../../util/blockHeightToTimestamp';
 import useWalletTransactions from '../../hooks/useWalletTransactions';
 
@@ -197,8 +197,8 @@ function prepareGraphPoints(
   const points = [
     {
       x: peakTransaction.confirmedAtHeight,
-      y: Math.max(0, mojo_to_sparelite(start)),
-      tooltip: mojo_to_sparelite(balance),
+      y: Math.max(0, graviton_to_sparelite(start)),
+      tooltip: graviton_to_sparelite(balance),
     },
   ];
 
@@ -209,8 +209,8 @@ function prepareGraphPoints(
 
     points.push({
       x: timestamp,
-      y: Math.max(0, mojo_to_sparelite(start)),
-      tooltip: mojo_to_sparelite(start),
+      y: Math.max(0, graviton_to_sparelite(start)),
+      tooltip: graviton_to_sparelite(start),
     });
   });
 

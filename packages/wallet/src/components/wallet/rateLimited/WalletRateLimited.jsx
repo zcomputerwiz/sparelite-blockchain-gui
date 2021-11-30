@@ -18,7 +18,7 @@ import {
   send_transaction,
   rl_set_user_info_action,
 } from '../../../modules/message';
-import { mojo_to_sparelite_string, sparelite_to_mojo } from '../../../util/sparelite';
+import { graviton_to_sparelite_string, sparelite_to_graviton } from '../../../util/sparelite';
 import { get_transaction_result } from '../../../util/transaction_result';
 import { openDialog } from '../../../modules/dialog';
 import WalletHistory from '../WalletHistory';
@@ -400,7 +400,7 @@ const RLDetailsCard = (props) => {
               <Typography variant="subtitle1">
                 <Trans>
                   Spending Limit (sparelite per interval):{' '}
-                  {mojo_to_sparelite_string(limit)}
+                  {graviton_to_sparelite_string(limit)}
                 </Trans>
               </Typography>
             </Box>
@@ -447,7 +447,7 @@ const RLDetailsCard = (props) => {
               <Typography variant="subtitle1">
                 <Trans>
                   Spending Limit (sparelite per interval):{' '}
-                  {mojo_to_sparelite_string(limit)}
+                  {graviton_to_sparelite_string(limit)}
                 </Trans>
               </Typography>
             </Box>
@@ -512,7 +512,7 @@ const BalanceCardSubSection = (props) => {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojo_to_sparelite_string(props.balance)} {currencyCode}
+            {graviton_to_sparelite_string(props.balance)} {currencyCode}
           </Typography>
         </Box>
       </Box>
@@ -652,8 +652,8 @@ const SendCard = (props) => {
       );
       return;
     }
-    const amount = sparelite_to_mojo(amount_input.value);
-    const fee = sparelite_to_mojo(fee_input.value);
+    const amount = sparelite_to_graviton(amount_input.value);
+    const fee = sparelite_to_graviton(fee_input.value);
 
     if (address.startsWith('0x') || address.startsWith('0X')) {
       address = address.slice(2);
